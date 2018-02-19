@@ -1,51 +1,119 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/index.css">
-    <title>Santa Rosa</title>
+  <title>Santa Rosa</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      position: relative; 
+  }
+  /*#video {padding-top:4%; overflow: hidden;/*width:100%;color: #000; background-color: #fff;*//*text-align: center;position: absolute;z-index: 1}*/
+  .video-container 
+{
+  top: 0%;
+  left: 0%;
+  height: inherit;
+  width: inherit;
+  overflow: hidden;
+}
+video.fillWidth {
+  width: 100%;
+}
+.footer {
+  background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  color: white;
+  opacity: 0.6;
+}
+  #contacto {padding-top:1%;color: #fff; background-color: #02B328; z-index: 2;position: relative; width: 50%}
+  .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover{
+    color:#000;
+  }
+  .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-brand{
+    color: #fff;
+  }
+  /*#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}*/
+  </style>
 </head>
 
-<body>
-    <div class="container-flex">
-        <div class="row">
-            <div class="col-sm-3">
-                One of three columns
-            </div>
-            <div class="col-sm-3">
-                One of three columns
-            </div>
-            <div class="col-sm-3">
-                One of three columns
-            </div>
-        </div>
-    </div>
-        <div class="row justify-content-md-center">
-                <video width="50%" height="50%" autoplay loop>
-                    <source src="./media/videos/SRF_loop.mp4" type="video/mp4" /> Your browser does not support the video tag.
-                </video>
-            </div>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-</br>
-    <div class="row justify-content-md-center">
-        <button class="btn btn-primary" type="submit">Cotiza</button>
+<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color:purple">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Santa Rosa Fabrica</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#">Video Introductorio</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <!--<li><a href="#section3">Section 3</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Section 4-1</a></li>
+              <li><a href="#section42">Section 4-2</a></li>
+            </ul>
+          </li>-->
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<!--<div id="video" class="container-fluid">
+  <!--<h1 style="text-align:center">Video Introductorio</h1>-->
+    <!--div class="col-sm-12 videos" style="text-align:center"><!--row justify-content-md-center-->
+    <div id="mivideo" class="video-container container-flex" style="width:100%; height:100%">
+            <video class="fillWidth" autoplay loop>
+                <source src="./media/videos/SRF_Loop.mp4" type="video/mp4" /> Your browser does not support the video tag.
+            </video>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+    <div class="footer container-flex">
+        <h1 style="text-align:center">Contacto</h1>
+        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam in dolore doloribus rem ut ipsam dolorum, sit, voluptatibus itaque earum dignissimos. Vero obcaecati, voluptatem magnam nulla eos, saepe cum minus.</div>
+        <div>Doloribus vero, maiores repellat. Id, praesentium delectus ratione molestiae aliquid, reiciendis dolorem molestias rerum dolore pariatur facere explicabo asperiores nesciunt recusandae iste eos natus expedita, hic laboriosam maiores esse quae.</div>
+    </div>
+      
+
+    <!--</div>-->
+<!--</div>-->
+<!--<div id="contacto" class="container-fluid">
+  <h1>Contacto</h1>
+  <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum sit, quia blanditiis fugiat nam libero possimus totam modi sint autem repellat fugit dicta est pariatur? Ut aut vel ad sapiente.</span>
+  <span>Beatae, reprehenderit! Deserunt laborum dolorum, deleniti molestiae quae vitae animi ratione nihil minus, ut quibusdam incidunt voluptate eos sed, id repudiandae ex eum doloribus illum magni harum dignissimos! Fugit, maiores.</span>
+  <span>Voluptas consequatur aliquid laboriosam, quae eveniet rerum ex, nobis necessitatibus. Neque ut, ab assumenda veritatis porro temporibus in error eaque mollitia? Nesciunt dolore, id illum molestias nihil ratione, explicabo fuga.</span></p>
+</div>
+<!--<div id="section3" class="container-fluid">
+  <h1>Section 3</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section41" class="container-fluid">
+  <h1>Section 4 Submenu 1</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>
+<div id="section42" class="container-fluid">
+  <h1>Section 4 Submenu 2</h1>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+</div>-->
+
 </body>
-
 </html>
