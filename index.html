@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
   <style>
     body {
       position: relative;
@@ -146,7 +147,7 @@
         <div class="modal-body">
 
           <!-- Inicio del form -->
-          <form>
+          <form id="contacto" name="contacto" action="enviar.php" method="POST">
             <div class="form-group">
               <label for="NombreCotizacionControlInput">Nombre</label>
               <input type="email" class="form-control" id="NombreCotizacionControlInput" placeholder="Nombre">
@@ -165,7 +166,7 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-          <button type="button" class="btn btn-primary">Enviar</button>
+          <button type="submit" class="btn btn-primary" >Enviar</button>
         </div>
       </div>
     </div>

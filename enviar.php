@@ -1,18 +1,25 @@
 <?php
-$nombre = $_POST['NombreCotizacionControlInput'];
-$mail = $_POST['EmailCotizacionesControlInput'];
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-$header = 'From: ' . $mail . " \r\n";
-$header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
-$header .= "Mime-Version: 1.0 \r\n";
-$header .= "Content-Type: text/plain";
-
-$mensaje = $_POST['MaterialesCotizacionControlTextarea'];
+require 'path/to/PHPMailer/src/Exception.php';
+require 'path/to/PHPMailer/src/PHPMailer.php';
+require 'path/to/PHPMailer/src/SMTP.php';
 
 $para = 'armandoecr_96@hotmail.com';
-$asunto = 'Cotización';
+$titulo = 'Prueba'
+//$nombre = $_POST['NombreCotizacionControlInput'];
+//$mail = 'armandoecr96@gmail.com'//$_POST['EmailCotizacionesControlInput'];
+$mensaje = 'Prueba envio de correos'//$_POST['MaterialesCotizacionControlTextarea'];
 
-mail($para, $asunto, utf8_decode($mensaje), $header);
+$cabeceras = 'From: armandoecr96@gmail.com' . "\r\n" . //La direccion de correo desde donde supuestamente se envió
+    'Reply-To: armandoecr96@gmail.com' . "\r\n" . //La direccion de correo a donde se responderá (cuando el recepto haga click en RESPONDER)
+    'X-Mailer: PHP/' . phpversion();  //información sobre el sistema de envio de correos, en este caso la version de PHP        
 
-echo 'Mensaje enviado correctamente';
+
+//$asunto = 'Cotización';
+
+mail($para, $titulo, $mensaje, $cabeceras);
+
+//echo 'Mensaje enviado correctamente';
 ?>
