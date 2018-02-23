@@ -15,7 +15,7 @@ $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com'; //Servidor smtp del correo
 $mail->SMTPAuth = true;
 $mail->Username = 'armandoecr96@gmail.com'; //Correo electronico del remitente
-$mail->Password = 'teamoalizeebananera'; //Constraseña del remitente
+$mail->Password = '***'; //Constraseña del remitente
 
 $mail->SMTPSecure = 'tls'; //Tipo de seguridad
 $mail->Port = 587; //Puerto del servidor smtp
