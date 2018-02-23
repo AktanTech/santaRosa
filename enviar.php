@@ -1,25 +1,36 @@
 <?php
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+//C:\xampp\htdocs\vendor\phpmailer\phpmailer\src
+require 'vendor/phpmailer/phpmailer/src/Exception.php';
+require 'vendor/phpmailer/phpmailer/src/PHPMailer.php';
+require 'vendor/phpmailer/phpmailer/src/SMTP.php';
 
-require 'path/to/PHPMailer/src/Exception.php';
-require 'path/to/PHPMailer/src/PHPMailer.php';
-require 'path/to/PHPMailer/src/SMTP.php';
+require 'vendor/autoload.php';
 
-$para = 'armandoecr_96@hotmail.com';
-$titulo = 'Prueba'
-//$nombre = $_POST['NombreCotizacionControlInput'];
-//$mail = 'armandoecr96@gmail.com'//$_POST['EmailCotizacionesControlInput'];
-$mensaje = 'Prueba envio de correos'//$_POST['MaterialesCotizacionControlTextarea'];
+//Configuración de correo electronico
+$mail = new PHPMailer;
+$mail->isSMTP();
+$mail->Host = 'smtp.gmail.com'; //Servidor smtp del correo
+$mail->SMTPAuth = true;
+$mail->Username = 'armandoecr96@gmail.com'; //Correo electronico del remitente
+$mail->Password = 'teamoalizeebananera'; //Constraseña del remitente
 
-$cabeceras = 'From: armandoecr96@gmail.com' . "\r\n" . //La direccion de correo desde donde supuestamente se envió
-    'Reply-To: armandoecr96@gmail.com' . "\r\n" . //La direccion de correo a donde se responderá (cuando el recepto haga click en RESPONDER)
-    'X-Mailer: PHP/' . phpversion();  //información sobre el sistema de envio de correos, en este caso la version de PHP        
+$mail->SMTPSecure = 'tls'; //Tipo de seguridad
+$mail->Port = 587; //Puerto del servidor smtp
 
+//-------------------------------------------------------
 
-//$asunto = 'Cotización';
+// Datos del Correo
 
-mail($para, $titulo, $mensaje, $cabeceras);
+$mail->SetFrom('armandoecr96@gmail.com', "Nombre Persona"); //Correo electronico del remitente y nombre(debe coindidir con el username)
+$mail->AddAddress('armandoecr_96@hotmail.com', "Nombre Persona"); //Correo electronico  y nombre del destinatario
 
-//echo 'Mensaje enviado correctamente';
+$mail->Subject = 'Pruebas PHPmailer'; //Asunto del correo electronico
+$mail->Body = 'Mensaje de prubeas PHPMailer para envio de mensajes'; //Cuerpo del correo electronico
+
+//Envio del mail
+
+$mail->send();
 ?>
