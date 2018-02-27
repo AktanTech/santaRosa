@@ -25,6 +25,10 @@ require 'vendor/autoload.php';
 if(isset($_POST["name"])){
     $nombre = $_POST["name"];
 }
+
+if(isset($_POST["phone"])){
+    $celPhone = $_POST["phone"];
+}
        
 if(isset($_POST["email"])){
     $correo = $_POST["email"];
@@ -48,12 +52,20 @@ if(isset($_POST["textarea"])){
         
         // Datos del Correo
         
-        $mail->SetFrom('armandoecr96@gmail.com', "Nombre Persona"); //Correo electronico del remitente y nombre(debe coindidir con el username)
+        $mail->SetFrom('ventas@santarosa.mx', utf8_decode($nombre)); //Correo electronico del remitente y nombre(debe coindidir con el username)
         $mail->AddAddress(utf8_decode($correo), utf8_decode($nombre)); //Correo electronico  y nombre del destinatario
+        $mail->addReplyTo(utf8_decode($correo), utf8_decode($nombre));
         
-        $mail->Subject = 'Cotizaciones'; //Asunto del correo electronico
-        $mail->Body = utf8_decode($texto); //Cuerpo del correo electronico
-        
+        $mail->isHTML(true);
+        $mail->Subject = 'Cotizaciones de '. utf8_decode($nombre); //Asunto del correo electronico
+        $mail->Body = utf8_decode(
+        utf8_decode($nombre).'</br>'
+        .utf8_decode($celPhone).'</br>'
+        .utf8_decode($correo).'</br></br>'
+        . 'Me gustaría recibir una cotización de su empresa a nombre de ' . utf8_decode($nombre) .' con la siguiente descripción:</br>'
+        . utf8_decode($texto) .'</br></br>'
+        . 'De antemano muchas gracias</br>'
+        . 'Atte: '. utf8_decode($nombre));
         //Envio del mail
         
         $mail->send();
