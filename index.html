@@ -121,27 +121,36 @@
         <div class="modal-body">
 
           <!-- Inicio del form -->
-          <form id="contacto" name="contacto" action="enviar.php" method="POST">
-            <div class="form-group">
-              <label for="NombreCotizacionControlInput">Nombre</label>
-              <input type="email" class="form-control" id="NombreCotizacionControlInput" placeholder="Nombre">
-            </div>
-            <div class="form-group">
-              <label for="EmailCotizacionesControlInput">E-mail</label>
-              <input type="email" class="form-control" id="EmailCotizacionesControlInput" placeholder="name@example.com">
-            </div>
-            <div class="form-group">
-              <label for="MaterialesCotizacionControlTextarea">Materiales que quiere usar</label>
-              <textarea class="form-control" id="MaterialesCotizacionControlTextarea" rows="3"></textarea>
-            </div>
-          </form>
+          <form action="enviar.php" method="POST">
+
+              <div class="form-group">
+                  <label for="name">Nombre</label>
+                  <input type="text" class="form-control" name="name" id="name" placeholder="Nombre">
+                </div>
+
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com">
+              </div>
+
+              <div class="form-group">
+                  <label for="phone">Número de celular</label>
+                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Télefono">
+                </div>
+
+              <div class="form-group">
+                <label for="textarea">Descripción breve de lo que necesita</label>
+                <textarea class="form-control" name="textarea" id="textarea" rows="3"></textarea>
+              </div>
+            
           <!-- Fin del form -->
 
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-          <input type="button" class="btn btn-primary" value="Enviar">
+          <input type="button" class="btn btn-secondary" value="Cerrar" data-dismiss="modal">
+          <input type="submit" class="btn btn-primary" value="Enviar" data-toggle="modal" data-target="#exampleModalCenter">
         </div>
+      </form>
       </div>
     </div>
   </div>
