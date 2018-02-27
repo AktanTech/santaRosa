@@ -5,85 +5,84 @@
     <meta charset="UTF-8">
     <title>Santa Rosa</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="home.css">
-<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        <style>
-            body {
-                position: relative;
-            }
+    <link rel="stylesheet" href="home.css">
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            position: relative;
+        }
 
-            /*#video {padding-top:4%; overflow: hidden;/*width:100%;color: #000; background-color: #fff;*/
+        /*#video {padding-top:4%; overflow: hidden;/*width:100%;color: #000; background-color: #fff;*/
 
-            /*text-align: center;position: absolute;z-index: 1}*/
+        /*text-align: center;position: absolute;z-index: 1}*/
 
-            .video-container {
-                top: 0%;
-                left: 0%;
-                height: inherit;
-                width: inherit;
-                overflow: hidden;
-            }
+        .video-container {
+            top: 0%;
+            left: 0%;
+            height: inherit;
+            width: inherit;
+            overflow: hidden;
+        }
 
-            video.fillWidth {
-                width: 100%;
-            }
+        video.fillWidth {
+            width: 100%;
+        }
 
-            @font-face {
-                font-family: AronGrotesque;
-                src: url("./font/AronGrotesque-regular.ttf") format("truetype"),
-                url("./font/AronGrotesque-black.ttf") format("truetype"),
-                url("./font/AronGrotesque-bold.ttf") format("truetype"),
-                url("./font/AronGrotesque-light.ttf") format("truetype");
-            }
+        @font-face {
+            font-family: AronGrotesque;
+            src: url("./font/AronGrotesque-regular.ttf") format("truetype"),
+            url("./font/AronGrotesque-black.ttf") format("truetype"),
+            url("./font/AronGrotesque-bold.ttf") format("truetype"),
+            url("./font/AronGrotesque-light.ttf") format("truetype");
+        }
 
-            .footer {
-                font-family: AronGrotesque;
-                background-color: black;
-                position: absolute;
-                bottom: 0;
-                width: 100%;
-                height: auto;
-                color: white;
-                opacity: 0.7;
-                text-align: center;
-            }
+        .footer {
+            font-family: AronGrotesque;
+            background-color: black;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: auto;
+            color: white;
+            opacity: 0.7;
+            text-align: center;
+        }
 
-            #contacto {
-                padding-top: 1%;
-                color: #fff;
-                background-color: #02B328;
-                z-index: 2;
-                position: relative;
-                width: 50%
-            }
+        #contacto {
+            padding-top: 1%;
+            color: #fff;
+            background-color: #02B328;
+            z-index: 2;
+            position: relative;
+            width: 50%
+        }
 
-            .navbar-inverse .navbar-nav>li>a:focus,
-            .navbar-inverse .navbar-nav>li>a:hover,
-            .navbar-inverse .navbar-brand:focus,
-            .navbar-inverse .navbar-brand:hover {
-                color: #000;
-            }
+        .navbar-inverse .navbar-nav>li>a:focus,
+        .navbar-inverse .navbar-nav>li>a:hover,
+        .navbar-inverse .navbar-brand:focus,
+        .navbar-inverse .navbar-brand:hover {
+            color: #000;
+        }
 
-            .navbar-inverse .navbar-nav>li>a,
-            .navbar-inverse .navbar-brand {
-                color: #fff;
-                font-family: AronGrotesque;
-            }
+        .navbar-inverse .navbar-nav>li>a,
+        .navbar-inverse .navbar-brand {
+            color: #fff;
+            font-family: AronGrotesque;
+        }
 
-            button {
-                margin-top: 16px;
-            }
+        button {
+            margin-top: 16px;
+        }
 
-            /*#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+        /*#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
   #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
   #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}*/
-        </style>
+    </style>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="20">
-
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -121,106 +120,107 @@
         </video>
     </div>
 
-
-    <!-- Modal -->
-    <div class="modal fade" id="cotizacion" tabindex="-1" role="dialog" aria-labelledby="cotizacionTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title" id="cotizacionLongTitle" style="text-align:center">Cotización</h3>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-
-                    <!-- Inicio del form -->
-                    <form action="enviar.php" method="POST">
-
-                        <div class="form-group">
-                            <label for="name">Nombre</label>
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Nombre">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="email">Email address</label>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="phone">Número de celular</label>
-                            <input type="text" class="form-control" name="phone" id="phone" placeholder="Télefono">
-                        </div>
-
-                        <div class="form-group">
-                            <label for="textarea">Descripción breve de lo que necesita</label>
-                            <textarea class="form-control" name="textarea" id="textarea" rows="3"></textarea>
-                        </div>
-
-                        <!-- Fin del form -->
-
-                </div>
-                <div class="modal-footer">
-                    <input type="button" class="btn btn-secondary" value="Cerrar" data-dismiss="modal">
-                    <input type="submit" class="btn btn-primary" value="Enviar" onclick="activar()">
-                </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal" tabindex="-1" role="dialog" id="confirmPositive">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Modal title</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <p>Modal body text goes here.</p>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="modal" tabindex="-1" role="dialog" id="confirmNegative">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
+        <!-- Modal -->
+        <div class="modal fade" id="cotizacion" tabindex="-1" role="dialog" aria-labelledby="cotizacionTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
                     <div class="modal-header">
-                      <h5 class="modal-title">Modal title</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
+                        <h3 class="modal-title" id="cotizacionLongTitle" style="text-align:center">Cotización</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                     </div>
                     <div class="modal-body">
-                      <p>Modal body text goes here.</p>
+
+                        <!-- Inicio del form -->
+                        <form action="enviar.php" method="POST">
+
+                            <div class="form-group">
+                                <label for="name">Nombre</label>
+                                <input type="text" class="form-control" name="name" id="name" placeholder="Nombre">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Número de celular</label>
+                                <input type="text" class="form-control" name="phone" id="phone" placeholder="Télefono">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="textarea">Descripción breve de lo que necesita</label>
+                                <textarea class="form-control" name="textarea" id="textarea" rows="3"></textarea>
+                            </div>
+
+                            <!-- Fin del form -->
+
                     </div>
                     <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <input type="button" class="btn btn-secondary" value="Cerrar" data-dismiss="modal">
+                        <input type="submit" class="btn btn-primary" value="Enviar" onclick="show()">
                     </div>
-                  </div>
+                    </form>
                 </div>
-              </div>
-
-
-    <!-- Footer Start-->
-    <div class="container-fluid" id="footer">
-        <!--<div class="row" >-->
-        <div class="col-sm-12">
-            <h1>Contacto</h1>
-            <p style="font-size:120%">Santa Rosa Fábrica
-                <br> Calle 42 Sur Col. Leona Vicario
-                <br> (999) 929 87 30
-                <br> (999) 929 43 59</p>
-            <button id="cotizar" type="button" class="btn btn-md" data-toggle="modal" data-target="#cotizacion">Cotiza con nosotros</button>
+            </div>
         </div>
-        <!--</div>-->
-    </div>
+
+
+
+        <div class="modal" tabindex="-1" role="dialog" id="myModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Modal body text goes here.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal" tabindex="-1" role="dialog" id="myModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Modal body text goes here.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer Start-->
+        <div class="container-fluid" id="footer">
+            <!--<div class="row" >-->
+            <div class="col-sm-12">
+                <h1>Contacto</h1>
+                <p style="font-size:120%">Santa Rosa Fábrica
+                    <br> Calle 42 Sur Col. Leona Vicario
+                    <br> (999) 929 87 30
+                    <br> (999) 929 43 59</p>
+                <button id="cotizar" type="button" class="btn btn-md" data-toggle="modal" data-target="#cotizacion">Cotiza con nosotros</button>
+            </div>
+            <!--</div>-->
+        </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
