@@ -40,10 +40,10 @@ if(isset($_POST["textarea"])){
     $mail = new PHPMailer(true);
     try{
         $mail->isSMTP();
-        $mail->Host = 'smtp.gmail.com'; //Servidor smtp del correo
+        $mail->Host = 'smtp.office365.com'; //Servidor smtp del correo
         $mail->SMTPAuth = true;
-        $mail->Username = 'armandoecr96@gmail.com'; //Correo electronico del remitente
-        $mail->Password = 'teamoalizeebananera'; //Constraseña del remitente
+        $mail->Username = 'ventas@santarosa.mx'; //Correo electronico del remitente
+        $mail->Password = ''; //Constraseña del remitente
         
         $mail->SMTPSecure = 'tls'; //Tipo de seguridad
         $mail->Port = 587; //Puerto del servidor smtp
@@ -52,8 +52,8 @@ if(isset($_POST["textarea"])){
         
         // Datos del Correo
         
-        $mail->SetFrom('ventas@santarosa.mx', utf8_decode($nombre)); //Correo electronico del remitente y nombre(debe coindidir con el username)
-        $mail->AddAddress(utf8_decode($correo), utf8_decode($nombre)); //Correo electronico  y nombre del destinatario
+        $mail->SetFrom('ventas@santarosa.mx', utf8_decode('Santa Rosa Fábrica')); //Correo electronico del remitente y nombre(debe coindidir con el username)
+        $mail->AddAddress('ventas@santarosa.mx', utf8_decode($nombre)); //Correo electronico  y nombre del destinatario
         $mail->addReplyTo(utf8_decode($correo), utf8_decode($nombre));
         
         $mail->isHTML(true);
