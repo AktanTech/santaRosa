@@ -44,6 +44,10 @@ body{
 video.fillWidth {
   width: 100%;
 }
+
+#imagen{
+  margin-bottom: 20px;
+}
 #footer{
   text-align:center;
   background-color:#1B1464; 
