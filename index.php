@@ -37,6 +37,9 @@
                     <li>
                         <a href="#cotizar">Cotiza con nosotros</a>
                     </li>
+                    <li>
+                        <a href="media/docs/Catálogo_Final.pdf" download="Catálogo_Santa_Rosa">Descargar Catálogo</a>
+                    </li>
             </div>
             <!-- /.navbar-collapse -->
         </div>
