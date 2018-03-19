@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="home.css">
 
-    
-<link rel="stylesheet" href="home.css">
+
+    <link rel="stylesheet" href="home.css">
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="20">
@@ -44,76 +44,80 @@
     </nav>
 
     <div id="mivideo" class="video-container container-flex">
-        <video class="fillWidth" autoplay loop>
+        <video class="fillWidth" muted autoplay loop>
             <source src="./media/videos/SRF_Loop.mp4" type="video/mp4" /> Your browser does not support the video tag.
         </video>
     </div>
 
-        <!-- Modal -->
-        <div class="modal fade" id="cotizacion" role="dialog">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h3 class="modal-title" style="text-align:center">Cotización</h3>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
+    <div id="imagen" class="media" align="center">
+            <img class="img-responsive" src="./media/imagenes/En-Construccion.jpeg" alt="Not Found">
+    </div>
 
-                        <!-- Inicio del form -->
-                        <form action="enviar.php" method="POST" id="form-coti">
-
-                            <div class="form-group">
-                                <label for="name">Nombre</label>
-                                <input type="text" class="form-control" name="name" id="name" placeholder="Nombre">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="email">Email address</label>
-                                <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="phone">Número de celular</label>
-                                <input type="text" class="form-control" name="phone" id="phone" placeholder="Télefono">
-                            </div>
-
-                            <div class="form-group">
-                                <label for="textarea">Descripción breve de lo que necesita</label>
-                                <textarea class="form-control" name="textarea" id="textarea" rows="3"></textarea>
-                            </div>
-
-                            <!-- Fin del form -->
-
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-                        <input type="submit" class="btn btn-primary" value="Enviar" aria-label="Close">
-                    </div>
-                    </form>
+    <!-- Modal -->
+    <div class="modal fade" id="cotizacion" role="dialog">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" style="text-align:center">Cotización</h3>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
                 </div>
+                <div class="modal-body">
+
+                    <!-- Inicio del form -->
+                    <form action="enviar.php" method="POST" id="form-coti">
+
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Nombre">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Número de celular</label>
+                            <input type="text" class="form-control" name="phone" id="phone" placeholder="Télefono">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="textarea">Descripción breve de lo que necesita</label>
+                            <textarea class="form-control" name="textarea" id="textarea" rows="3"></textarea>
+                        </div>
+
+                        <!-- Fin del form -->
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    <input type="submit" class="btn btn-primary" value="Enviar" aria-label="Close">
+                </div>
+                </form>
             </div>
         </div>
+    </div>
 
 
 
-        <!-- Footer Start-->
-        <div class="container-fluid" id="footer">
-            <!--<div class="row" >-->
-            <div class="col-sm-12">
-                <h1>Contacto</h1>
-                <p style="font-size:120%">Santa Rosa Fábrica
-                    <br> Calle 42 Sur Col. Leona Vicario
-                    <br> (999) 929 87 30
-                    <br> (999) 929 43 59</p>
-                <button id="cotizar" type="button" class="btn btn-md" data-toggle="modal" data-target="#cotizacion">Cotiza con nosotros</button>
-            </div>
-            <!--</div>-->
+    <!-- Footer Start-->
+    <div class="container-fluid" id="footer">
+        <!--<div class="row" >-->
+        <div class="col-sm-12">
+            <h1>Contacto</h1>
+            <p style="font-size:120%">Santa Rosa Fábrica
+                <br> Calle 42 Sur Col. Leona Vicario
+                <br> (999) 929 87 30
+                <br> (999) 929 43 59</p>
+            <button id="cotizar" type="button" class="btn btn-md" data-toggle="modal" data-target="#cotizacion">Cotiza con nosotros</button>
         </div>
+        <!--</div>-->
+    </div>
 </body>
-    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </html>

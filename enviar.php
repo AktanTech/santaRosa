@@ -32,7 +32,7 @@ if(isset($_POST["textarea"])){
         $mail->Password = 'Santarosa1980%'; //Constraseña del remitente
         
         $mail->SMTPSecure = 'tls'; //Tipo de seguridad
-        $mail->Port = 587; //Puerto del servidor smtp
+        $mail->Port = 25; //Puerto del servidor smtp
         
         //-------------------------------------------------------
         
