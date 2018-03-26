@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santa Rosa</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="home.css">
@@ -24,7 +25,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="">
-                    <img src="media/imagenes/Logo-Santa-Rosa-Azul 640x494.png" alt="Santa Rosa Fabrica" width="130em">
+                    <img src="media/imagenes/Logo-Santa-Rosa-Azul 640x494.png" alt="Santa Rosa Fabrica" width="130em" style="margin-top:3px">
                 </a>
             </div>
 
@@ -32,10 +33,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#mivideo">Contacto</a>
+                        <a href="#mivideo">Contac<span style="font-family:Arial">t</span>o</a>
                     </li>
                     <li>
-                        <a href="#cotizar">Cotiza con nosotros</a>
+                        <a href="#cotizar">Co<span style="font-family:Arial">t</span>iza con nosotros</a>
                     </li>
                     <li>
                         <a href="media/docs/Catálogo_Final.pdf" download="Catálogo_Santa_Rosa">Descargar Catálogo</a>
@@ -47,9 +48,13 @@
     </nav>
 
     <div id="mivideo" class="video-container container-flex">
-        <video class="fillWidth" autoplay loop>
+        <video class="fillWidth" autoplay loop muted playsinline preload="auto">
             <source src="./media/videos/SRF_Loop.mp4" type="video/mp4" /> Your browser does not support the video tag.
         </video>
+    </div>
+
+    <div id="imagen" class="media" align="center">
+            <img class="img-responsive" src="./media/imagenes/En-Construccion.jpeg" alt="Not Found">
     </div>
 
         <!-- Modal -->
@@ -98,17 +103,16 @@
             </div>
         </div>
 
-
-
         <!-- Footer Start-->
         <div class="container-fluid" id="footer">
             <!--<div class="row" >-->
             <div class="col-sm-12">
-                <h1>Contacto</h1>
-                <p style="font-size:120%">Santa Rosa Fábrica
+                <h1>Contac<span style="font-family:Arial">t</span>o</h1>
+                <h4>VIGAS PRETENSADAS, BOVEDILLA DE POLIESTIRENO Y PANEL</h4>
+                <h4 >Santa Rosa Fábrica
                     <br> Calle 42 Sur Col. Leona Vicario
                     <br> (999) 929 87 30
-                    <br> (999) 929 43 59</p>
+                    <br> (999) 929 43 59</h4>
                 <button id="cotizar" type="button" class="btn btn-md" data-toggle="modal" data-target="#cotizacion">Cotiza con nosotros</button>
             </div>
             <!--</div>-->
@@ -151,20 +155,13 @@ if(isset($_POST["textarea"])){
     $mail = new PHPMailer(true);
     try{
         $mail->isSMTP();
-        $mail->Host = 'smtp.office365.com'; //Servidor smtp del correo
-        $mail->SMTPAuth = true;
+	$mail->Host = 'relay-hosting.secureserver.net'; //'smtp.office365.com'; //Servidor smtp del correo
+        $mail->SMTPAuth = false;
         $mail->Username = 'ventas@santarosa.mx'; //Correo electronico del remitente
         $mail->Password = 'Santarosa1980%'; //Constraseña del remitente
         
-        $mail->SMTPSecure = 'tls'; //Tipo de seguridad
-        $mail->Port = 587; //Puerto del servidor smtp
-        $mail->SMTPOptions = array(
-                'ssl' => array(
-                'verify_peer' => false,
-                'verify_peer_name' => false,
-                'allow_self_signed' => true
-            )
-        );
+        $mail->SMTPSecure = false; //Tipo de seguridad
+        $mail->Port = 25; //Puerto del servidor smtp
         
         //-------------------------------------------------------
         
