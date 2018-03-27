@@ -13,22 +13,22 @@
 <link rel="stylesheet" href="home.css">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="20">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <nav  id="navbar" class="navbar navbar-default navbar-fixed-top">
         <!-- Función para aumentar la transparencia del menú -->
         <script>
             $(window).scroll(function() {
                 if ($("#navbar").offset().top < 56) {
 
-                    $("#navbar").css("opacity", "1");
+                    $("#navbar").css("opacity", ".9");
                 } else { 
                     if($("#navbar").offset().top < 68){
-                        $("#navbar").css("opacity", ".8334");
+                        $("#navbar").css("opacity", ".9");
                     }else  {
                            if($("#navbar").offset().top < 80){
-                             $("#navbar").css("opacity", ".6668");
+                             $("#navbar").css("opacity", ".9");
                            }  else {
-                                 $("#navbar").css("opacity", ".5");
+                                 $("#navbar").css("opacity", ".8");
                                    }
                            }
                     
@@ -55,7 +55,7 @@
                 <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li>
-                           <a href="#mivideo">CONTACTO</a>
+                           <a href="#footer">CONTACTO</a>
                         </li>
                         <li>
                             <a href="#cotizar">COTIZA CON NOSOTROS</a>
@@ -74,43 +74,51 @@
 
     <!-- Carussel -->
 
-            <div class="Carrusel">
-            <div class="row">
-                <div class="col-md-12">
+            <div id="Carrusel">
+            <div style="width:100%">
+                <div class="container-flex">
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
                             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
                         </ol>
 
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
 
-                        <div class="item active">
+                        <div class="item active" data-duration="17000">
                             <div id="mivideo" class="video-container container-flex">
-                                <video  id="Video" class="fillWidth" autoplay muted playsinline preload="auto">
+                                <video  id="Video" class="fillWidth" autoplay muted playsinline loop preload="auto">
                                     <source src="./media/videos/SRF_Loop.mp4" type="video/mp4" /> Your browser does not support the video tag.
                                 </video>
-                                <!-- Detecta que el video ha finalizado -->
+                                <!-- Detecta que el video ha finalizado 
                                 <script>
                                     $(document).ready(function(){
 	                                 $("#Video").on('ended', function(){
 	                                 });
                                     });
-                                </script>
+                                </script>-->
                             </div>
                         </div>
-                            <div class="item">
+                            <div class="item" data-duration="5000">
                                 <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin imagen">
                                 <div class="carousel-caption">
                                     <h1>Lorem ipsum</h1>
                                     <p>dolor sit amet, consectetur adipiscing elit</p>
                                 </div>
                             </div>
-                            <div class="item">
+                            <div class="item" data-duration="5000">
                                 <img src="./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png" alt="Sin Imagen">
+                                <div class="carousel-caption">
+                                    <h1>Lorem ipsum</h1>
+                                    <p>dolor sit amet, consectetur adipiscing elit</p>
+                                </div>
+                            </div>
+                            <div class="item" data-duration="5000">
+                                <img src="http://img.archiexpo.es/images_ae/photo-g/56982-10121856.jpg" alt="Sin Imagen">
                                 <div class="carousel-caption">
                                     <h1>Lorem ipsum</h1>
                                     <p>dolor sit amet, consectetur adipiscing elit</p>
@@ -135,7 +143,7 @@
         <!-- Fin de Carrusel -->
 
         <!-- Tarjetas de materiales -->
-        <div class="row">
+        <div class="container-fluid">
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
                 <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
@@ -168,9 +176,9 @@
                 </div>
                 </div>
             </div>
-        </div>
+        
 
-         <div class="row">
+         
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
                 <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
@@ -203,9 +211,9 @@
                 </div>
                 </div>
             </div>
-        </div>
+        
 
-         <div class="row">
+         
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
                 <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
@@ -301,38 +309,72 @@
                     <br> Calle 42 Sur Col. Leona Vicario
                     <br> (999) 929 87 30
                     <br> (999) 929 43 59</h4>
-                    <!-- Google maps -->
-                    <div id="map"></div>
-    <script>
-      function initMap() {
-        var myLatLng = {lat: -25.363, lng: 131.044};
-
-        // Create a map object and specify the DOM element for display.
-        var map = new google.maps.Map(document.getElementById('map'), {
-          center: myLatLng,
-          zoom: 4
-        });
-
-        // Create a marker and set its position.
-        var marker = new google.maps.Marker({
-          map: map,
-          position: myLatLng,
-          title: 'Hello World!'
-        });
-      }
-
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYqL_anXa7DZgrjF7ahXaaQY5Empwt6GY&callback=initMap"
-        async defer></script>
-    <!-- Fin de Google Maps -->
+                <div class="container-fluid" id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14908.
+                    254555153948!2d-89.60908707147142!3d20.909759177005714!2m3!1f0!2f0!3f0!3m2
+                    !1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671dbc1b2134d%3A0xc45e2884a142c344!2sL
+                    eona+Vicario%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1522105577218" width="100%" 
+                    height="600" frameborder="0" style="border:0" allowfullscreen>
+                    </iframe>
+                </div>
                 <button id="cotizar" type="button" class="btn btn-md" data-toggle="modal" data-target="#cotizacion">Cotiza con nosotros</button>
+                
             </div>
+
             <!--</div>-->
         </div>
 </body>
     <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+    var extension = {
+  cycle: function(e, extra) {
+    e || (this.paused = false)
+
+    this.interval && clearTimeout(this.interval)
+
+    var nextInterval;
+    var $active = this.$element.find('.item.active')
+    if (!extra) {
+      nextInterval = $active.data("duration") || this.options.interval;
+    } else {
+      var $next = this.getItemForDirection('next', $active)
+      nextInterval = $next.data("duration") || this.options.interval;
+    }
+
+    console.log(nextInterval);
+
+    !this.paused && (this.interval = setTimeout($.proxy(this.nextProxy, this), nextInterval))
+
+    return this
+  },
+  pause: function(e) {
+    e || (this.paused = true)
+
+    if (this.$element.find('.next, .prev').length && $.support.transition) {
+      this.$element.trigger($.support.transition.end)
+      this.cycle(true)
+    }
+    this.interval = clearTimeout(this.interval)
+
+    return this
+  },
+  nextProxy: function() {
+    this.next()
+    this.cycle(true, true)
+  }
+}
+
+$.extend($["fn"]["carousel"]["Constructor"].prototype, extension);
+
+$(function() {
+  $('#carousel-example-generic').carousel();
+});
+
+
+
+    </script>
 
 </html>
 
