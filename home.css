@@ -51,6 +51,11 @@ video.fillWidth {
   width: 100%;
   margin: 0;
 }
+#Nosotros{
+  font-family: Asap;
+  padding-top: 5em;
+  text-align: center;
+}
 #footer{
   text-align:center;
   background-color:#1B1464; 
@@ -79,6 +84,7 @@ video.fillWidth {
   height:100%;
   margin-top: 6em;
  }
+
 
 .btn-default{
   background-color: #1B1464;

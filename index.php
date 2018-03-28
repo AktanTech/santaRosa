@@ -55,6 +55,9 @@
                 <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li>
+                           <a href="#Nosotros">NOSOTROS</a>
+                        </li>
+                        <li>
                            <a href="#footer">CONTACTO</a>
                         </li>
                         <li>
@@ -141,6 +144,28 @@
         </div>
 
         <!-- Fin de Carrusel -->
+        <!-- Sobre Nosotros Section -->
+        <div class="container-fluid" id="Nosotros">
+            <h1>QUIENES SOMOS</h1>
+            <div class="col-sm-4">
+                <h1>Misión</h1>
+                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente reprehenderit illum eveniet error dolorem iusto, nulla autem! Id, neque labore tempora fugiat consequuntur dolores aliquam earum accusamus, totam nulla nisi.</span><span>Velit rem minus esse suscipit similique quisquam sequi perspiciatis sit, fuga et ratione doloremque fugiat voluptatum culpa debitis nostrum hic molestias ab eius incidunt architecto aliquam corporis assumenda temporibus? Sapiente?</span></p>
+            </div>
+            <div class="col-sm-4">
+                <h1>Visión</h1>
+                <p>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quia laudantium alias inventore quas velit, ex facilis laboriosam. Impedit praesentium modi sunt tempore eos architecto nisi, consequatur incidunt voluptate quaerat.</span><span>Enim, iste ipsam dolorem ut, ratione tempore dolores quidem temporibus, alias reprehenderit fuga commodi, eaque cupiditate aliquam unde praesentium necessitatibus. Facere a maxime non assumenda ut autem adipisci perferendis modi?</span>
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h1>Valores</h1>
+                <p>
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In laborum id quibusdam fuga, quisquam quis non, debitis illo obcaecati modi nihil iure porro consequatur corporis dolor fugiat, totam molestias nemo.</span><span>Soluta voluptas, ipsam tempora excepturi inventore consequatur numquam laudantium maxime, nobis id vero itaque ipsum nemo at et voluptate repellat atque voluptatem. Architecto modi inventore libero, distinctio repudiandae nobis, commodi.</span>
+                </p>
+            </div>
+        </div>
+
+
 
         <!-- Tarjetas de materiales -->
         <div class="container-fluid">
@@ -302,13 +327,15 @@
         <!-- Footer Start-->
         <div class="container-fluid" id="footer">
             <!--<div class="row" >-->
-            <div class="col-sm-12">
+            <div class="col-sm-4">
                 <h1>Contacto</h1>
                 <h4>VIGAS PRETENSADAS, BOVEDILLA DE POLIESTIRENO Y PANEL</h4>
                 <h4 >Santa Rosa Fábrica
                     <br> Calle 42 Sur Col. Leona Vicario
                     <br> (999) 929 87 30
                     <br> (999) 929 43 59</h4>
+            </div>
+            <div class="col-sm-8">
                 <div class="container-fluid" id="map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14908.
                     254555153948!2d-89.60908707147142!3d20.909759177005714!2m3!1f0!2f0!3f0!3m2
@@ -316,12 +343,9 @@
                     eona+Vicario%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1522105577218" width="100%" 
                     height="600" frameborder="0" style="border:0" allowfullscreen>
                     </iframe>
-                </div>
-                <button id="cotizar" type="button" class="btn btn-md" data-toggle="modal" data-target="#cotizacion">Cotiza con nosotros</button>
-                
+                </div>                
             </div>
-
-            <!--</div>-->
+            <button id="cotizar" type="button" class="btn btn-md" data-toggle="modal" data-target="#cotizacion">Cotiza con nosotros</button>
         </div>
 </body>
     <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
