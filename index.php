@@ -175,7 +175,7 @@
                 <div class="caption">
                     <h3>Lorem ipsum</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <p><a href="#" class="btn btn-default" role="button">Saber más</a>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
                 </div>
                 </div>
             </div>
@@ -186,7 +186,7 @@
                 <div class="caption">
                     <h3>Lorem ipsum</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <p><a href="#" class="btn btn-default" role="button">Saber más</a>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
                 </div>
                 </div>
             </div>
@@ -197,42 +197,7 @@
                 <div class="caption">
                     <h3>Lorem ipsum</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <p><a href="#" class="btn btn-default" role="button">Saber más</a>
-                </div>
-                </div>
-            </div>
-        
-
-         
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
-                <div class="caption">
-                    <h3>Lorem ipsum</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <p><a href="#" class="btn btn-default" role="button">Saber más</a>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
-                <div class="caption">
-                    <h3>Lorem ipsum</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <p><a href="#" class="btn btn-default" role="button">Saber más</a>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
-                <div class="caption">
-                    <h3>Lorem ipsum</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <p><a href="#" class="btn btn-default" role="button">Saber más</a>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
                 </div>
                 </div>
             </div>
@@ -245,7 +210,7 @@
                 <div class="caption">
                     <h3>Lorem ipsum</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <p><a href="#" class="btn btn-default" role="button">Saber más</a>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
                 </div>
                 </div>
             </div>
@@ -256,7 +221,7 @@
                 <div class="caption">
                     <h3>Lorem ipsum</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <p><a href="#" class="btn btn-default" role="button">Saber más</a>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
                 </div>
                 </div>
             </div>
@@ -267,12 +232,77 @@
                 <div class="caption">
                     <h3>Lorem ipsum</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <p><a href="#" class="btn btn-default" role="button">Saber más</a>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
+                </div>
+                </div>
+            </div>
+        
+
+         
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
+                <div class="caption">
+                    <h3>Lorem ipsum</h3>
+                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
+                <div class="caption">
+                    <h3>Lorem ipsum</h3>
+                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
+                <div class="caption">
+                    <h3>Lorem ipsum</h3>
+                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
                 </div>
                 </div>
             </div>
         </div>
-<!-- Fin de tarjetas de materiales -->
+
+        <!-- Modales de tarjeta de materiales -->     
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" style="text-align:center" id="exampleModalLabel">Lorem ipsum</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                    <div class="thumbnail">
+                    <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin imagen">
+                    <div class="caption">
+                        <p>dolor sit amet, consectetur adipiscing elit. Aenean ultricies, odio vulputate ullamcorper vulputate, 
+                            nibh odio pulvinar lorem, fringilla convallis justo sem eu risus. Maecenas in sagittis urna, eget eleifend enim. 
+                            Aliquam ultrices sollicitudin justo, sit amet auctor nisi tempus scelerisque. Vestibulum nisl tortor,
+                             gravida non imperdiet ut, vestibulum non orci. Vestibulum venenatis ante imperdiet tellus gravida tincidunt. 
+                             Aliquam vel turpis at nulla finibus dapibus. </p>
+                    </div>
+                    </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+        </div>
+        </div>   
+        <!-- Fin de tarjetas de materiales -->
 
     <div id="imagen" class="media" align="center">
             <img class="img-responsive" src="./media/imagenes/En-Construccion.jpeg" alt="Not Found">
@@ -326,27 +356,30 @@
 
         <!-- Footer Start-->
         <div class="container-fluid" id="footer">
-            <!--<div class="row" >-->
-            <div class="col-sm-4">
-                <h1>Contacto</h1>
-                <h4>VIGAS PRETENSADAS, BOVEDILLA DE POLIESTIRENO Y PANEL</h4>
-                <h4 >Santa Rosa Fábrica
-                    <br> Calle 42 Sur Col. Leona Vicario
-                    <br> (999) 929 87 30
-                    <br> (999) 929 43 59</h4>
-            </div>
-            <div class="col-sm-8">
-                <div class="container-fluid" id="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14908.
-                    254555153948!2d-89.60908707147142!3d20.909759177005714!2m3!1f0!2f0!3f0!3m2
-                    !1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671dbc1b2134d%3A0xc45e2884a142c344!2sL
-                    eona+Vicario%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1522105577218" width="100%" 
-                    height="600" frameborder="0" style="border:0" allowfullscreen>
+            <div class="margin-top">
+                <div class="col-sm-4">
+                    <h1>Contacto</h1>
+                    <h4>VIGAS PRETENSADAS, BOVEDILLA DE POLIESTIRENO Y PANEL</h4>
+                    <h4 >Santa Rosa Fábrica
+                        <br> Calle 42 Sur Col. Leona Vicario
+                        <br> (999) 929 87 30
+                        <br> (999) 929 43 59</h4>
+                </div>
+                <div class="col-sm-8">
+                    <div id="map">
+                        <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.215434348509!2d-89.
+                        61452278588189!3d20.943861886044346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567174f6283a65%3A0x7c2057ef41c0fb6a!2sCalle+42%2C+Yucat%C3%A1n!5e0!3m2!1ses!2smx!4v1522511905178" 
+                        width="300" height="250" frameborder="0" style="border:16px dotted #1B1464" allowfullscreen>
                     </iframe>
-                </div>                
+                    <div>
+                    <div id="cotizarButtom" >
+                    <button id="cotizar" type="button" class="btn btn-md" data-toggle="modal" data-target="#cotizacion" style="margin-bottom: 16px">Cotiza con nosotros</button>
+                    <div>        
+                </div>   
             </div>
-            <button id="cotizar" type="button" class="btn btn-md" data-toggle="modal" data-target="#cotizacion">Cotiza con nosotros</button>
-        </div>
+        </div>     
+        
 </body>
     <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
