@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="home.css">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target=".navbar" data-offset="80">
     <nav  id="navbar" class="navbar navbar-default navbar-fixed-top">
         <!-- Función para aumentar la transparencia del menú -->
         <script>
@@ -58,7 +58,10 @@
                            <a href="#Nosotros">NOSOTROS</a>
                         </li>
                         <li>
-                           <a href="#footer">CONTACTO</a>
+                           <a href="#productos">PRODUCTOS</a>
+                        </li>
+                        <li>
+                           <a href="#contacto">CONTACTO</a>
                         </li>
                         <li>
                             <a href="#cotizar">COTIZA CON NOSOTROS</a>
@@ -147,6 +150,63 @@
         <!-- Sobre Nosotros Section -->
         <div class="container-fluid" id="Nosotros">
             <h1>QUIENES SOMOS</h1>
+            <ul class="nav nav-tabs">
+                <li style="width:33%; font-size:160%; text-align:center;"class="active"><a data-toggle="tab" href="#Mision">MISION</a></li>
+                <li style="width:33%; font-size:160%; text-align:center;" ><a data-toggle="tab" href="#Vision">VISION</a></li>
+                <li style="width:34%; font-size:160%; text-align:center; text-indent:-5px"><a data-toggle="tab" href="#Valores">VALORES</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="Mision" class="tab-pane fade in active">
+                    <h2>Misión</h2>
+                    <div class="col-sm-8">
+                        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi molestiae quisquam sit, quos delectus possimus fugit quia labore enim consectetur assumenda vero nostrum. Accusamus in obcaecati velit consequatur nemo, officia.</span>
+                        <span>Ipsum facilis sint, repudiandae. Officia unde repellat illum quos dolor accusantium, quam facilis ex, excepturi tempore. Explicabo quia, quam! Voluptatibus qui necessitatibus quas optio unde deserunt vero, aliquam velit doloremque.</span>
+                        <span>Voluptates illum itaque dolor eos quae quasi tenetur consequuntur labore, natus voluptate mollitia, aperiam amet? Error reiciendis culpa ipsam reprehenderit facilis modi amet accusamus vero totam corporis atque animi, quisquam.</span>
+                        <span>Reprehenderit, quo facere quidem nisi corrupti atque quasi blanditiis ipsa, at debitis. Quidem quod nulla nemo nisi soluta inventore delectus! Iusto asperiores rem iure molestias ducimus beatae dignissimos eius fugiat?</span>
+                        <span>Qui doloremque autem repudiandae voluptatibus fugit vel in voluptas dolor, delectus, dolorem molestias, ipsum deserunt cum possimus ullam, ea saepe porro ipsam impedit. Veniam vero maxime, possimus nostrum incidunt hic.</span></p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="container-fluid" id="imagenTab">
+                            <img src="https://image.freepik.com/vector-gratis/fondo-abstracto-azul_1048-1511.jpg" alt="IMAGEN PRUEBA" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+                <div id="Vision" class="tab-pane fade">
+                    <h2>Visión</h2>
+                    <div class="col-sm-8">
+                        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi molestiae quisquam sit, quos delectus possimus fugit quia labore enim consectetur assumenda vero nostrum. Accusamus in obcaecati velit consequatur nemo, officia.</span>
+                        <span>Ipsum facilis sint, repudiandae. Officia unde repellat illum quos dolor accusantium, quam facilis ex, excepturi tempore. Explicabo quia, quam! Voluptatibus qui necessitatibus quas optio unde deserunt vero, aliquam velit doloremque.</span>
+                        <span>Voluptates illum itaque dolor eos quae quasi tenetur consequuntur labore, natus voluptate mollitia, aperiam amet? Error reiciendis culpa ipsam reprehenderit facilis modi amet accusamus vero totam corporis atque animi, quisquam.</span>
+                        <span>Reprehenderit, quo facere quidem nisi corrupti atque quasi blanditiis ipsa, at debitis. Quidem quod nulla nemo nisi soluta inventore delectus! Iusto asperiores rem iure molestias ducimus beatae dignissimos eius fugiat?</span>
+                        <span>Qui doloremque autem repudiandae voluptatibus fugit vel in voluptas dolor, delectus, dolorem molestias, ipsum deserunt cum possimus ullam, ea saepe porro ipsam impedit. Veniam vero maxime, possimus nostrum incidunt hic.</span></p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="container-fluid" id="imagenTab">
+                            <img src="https://image.freepik.com/vector-gratis/fondo-abstracto-azul_1048-1511.jpg" alt="IMAGEN PRUEBA" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+                <div id="Valores" class="tab-pane fade">
+                    <h2>Valores</h2>
+                    <div class="col-sm-8">
+                        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi molestiae quisquam sit, quos delectus possimus fugit quia labore enim consectetur assumenda vero nostrum. Accusamus in obcaecati velit consequatur nemo, officia.</span>
+                        <span>Ipsum facilis sint, repudiandae. Officia unde repellat illum quos dolor accusantium, quam facilis ex, excepturi tempore. Explicabo quia, quam! Voluptatibus qui necessitatibus quas optio unde deserunt vero, aliquam velit doloremque.</span>
+                        <span>Voluptates illum itaque dolor eos quae quasi tenetur consequuntur labore, natus voluptate mollitia, aperiam amet? Error reiciendis culpa ipsam reprehenderit facilis modi amet accusamus vero totam corporis atque animi, quisquam.</span>
+                        <span>Reprehenderit, quo facere quidem nisi corrupti atque quasi blanditiis ipsa, at debitis. Quidem quod nulla nemo nisi soluta inventore delectus! Iusto asperiores rem iure molestias ducimus beatae dignissimos eius fugiat?</span>
+                        <span>Qui doloremque autem repudiandae voluptatibus fugit vel in voluptas dolor, delectus, dolorem molestias, ipsum deserunt cum possimus ullam, ea saepe porro ipsam impedit. Veniam vero maxime, possimus nostrum incidunt hic.</span></p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="container-fluid" id="imagenTab">
+                            <img src="https://image.freepik.com/vector-gratis/fondo-abstracto-azul_1048-1511.jpg" alt="IMAGEN PRUEBA" class="img-responsive">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="container-fluid" id="Nosotros">
+            <h1>QUIENES SOMOS</h1>
             <div class="col-sm-4">
                 <h1>Misión</h1>
                 <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente reprehenderit illum eveniet error dolorem iusto, nulla autem! Id, neque labore tempora fugiat consequuntur dolores aliquam earum accusamus, totam nulla nisi.</span><span>Velit rem minus esse suscipit similique quisquam sequi perspiciatis sit, fuga et ratione doloremque fugiat voluptatum culpa debitis nostrum hic molestias ab eius incidunt architecto aliquam corporis assumenda temporibus? Sapiente?</span></p>
@@ -163,19 +223,20 @@
                     <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In laborum id quibusdam fuga, quisquam quis non, debitis illo obcaecati modi nihil iure porro consequatur corporis dolor fugiat, totam molestias nemo.</span><span>Soluta voluptas, ipsam tempora excepturi inventore consequatur numquam laudantium maxime, nobis id vero itaque ipsum nemo at et voluptate repellat atque voluptatem. Architecto modi inventore libero, distinctio repudiandae nobis, commodi.</span>
                 </p>
             </div>
-        </div>
+        </div> -->
 
 
 
         <!-- Tarjetas de materiales -->
-        <div class="container-fluid">
+        <div class="container-fluid" id="productos">
+            <h1>NUESTROS PRODUCTOS</h1>
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
                 <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
                 <div class="caption">
                     <h3>Lorem ipsum</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('1')">   Saber más </button>
                 </div>
                 </div>
             </div>
@@ -186,7 +247,7 @@
                 <div class="caption">
                     <h3>Lorem ipsum</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('2')">   Saber más </button>
                 </div>
                 </div>
             </div>
@@ -197,42 +258,7 @@
                 <div class="caption">
                     <h3>Lorem ipsum</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
-                </div>
-                </div>
-            </div>
-        
-
-         
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
-                <div class="caption">
-                    <h3>Lorem ipsum</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
-                <div class="caption">
-                    <h3>Lorem ipsum</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
-                <div class="caption">
-                    <h3>Lorem ipsum</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('3')">   Saber más </button>
                 </div>
                 </div>
             </div>
@@ -245,7 +271,7 @@
                 <div class="caption">
                     <h3>Lorem ipsum</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('4')">   Saber más </button>
                 </div>
                 </div>
             </div>
@@ -256,7 +282,7 @@
                 <div class="caption">
                     <h3>Lorem ipsum</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('5')">   Saber más </button>
                 </div>
                 </div>
             </div>
@@ -267,7 +293,42 @@
                 <div class="caption">
                     <h3>Lorem ipsum</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('6')">   Saber más </button>
+                </div>
+                </div>
+            </div>
+        
+
+         
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
+                <div class="caption">
+                    <h3>Lorem ipsum</h3>
+                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('7')">   Saber más </button>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
+                <div class="caption">
+                    <h3>Lorem ipsum</h3>
+                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('8')">   Saber más </button>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
+                <div class="caption">
+                    <h3>Lorem ipsum</h3>
+                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('9')">   Saber más </button>
                 </div>
                 </div>
             </div>
@@ -278,7 +339,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title" style="text-align:center" id="exampleModalLabel">Lorem ipsum</h3>
+                <h3 class="modal-title" style="text-align:center" id="modalHeader"></h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
@@ -286,13 +347,8 @@
 
             <div class="modal-body">
                     <div class="thumbnail">
-                    <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin imagen">
-                    <div class="caption">
-                        <p>dolor sit amet, consectetur adipiscing elit. Aenean ultricies, odio vulputate ullamcorper vulputate, 
-                            nibh odio pulvinar lorem, fringilla convallis justo sem eu risus. Maecenas in sagittis urna, eget eleifend enim. 
-                            Aliquam ultrices sollicitudin justo, sit amet auctor nisi tempus scelerisque. Vestibulum nisl tortor,
-                             gravida non imperdiet ut, vestibulum non orci. Vestibulum venenatis ante imperdiet tellus gravida tincidunt. 
-                             Aliquam vel turpis at nulla finibus dapibus. </p>
+                    <img alt="Sin imagen" id="modalImg">
+                    <div class="caption" id="txtHint">
                     </div>
                     </div>
             </div>
@@ -302,11 +358,11 @@
             </div>
         </div>
         </div>   
-        <!-- Fin de tarjetas de materiales -->
+<!-- Fin de tarjetas de materiales -->
 
-    <div id="imagen" class="media" align="center">
+<!--     <div id="imagen" class="media" align="center">
             <img class="img-responsive" src="./media/imagenes/En-Construccion.jpeg" alt="Not Found">
-    </div>
+    </div> -->
 
         <!-- Modal -->
         <div class="modal fade" id="cotizacion" role="dialog">
@@ -355,35 +411,35 @@
         </div>
 
         <!-- Footer Start-->
-        <div class="container-fluid" id="footer">
-            <div class="margin-top">
-                <div class="col-sm-4">
-                    <h1>Contacto</h1>
-                    <h4>VIGAS PRETENSADAS, BOVEDILLA DE POLIESTIRENO Y PANEL</h4>
-                    <h4 >Santa Rosa Fábrica
-                        <br> Calle 42 Sur Col. Leona Vicario
-                        <br> (999) 929 87 30
-                        <br> (999) 929 43 59</h4>
-                </div>
-                <div class="col-sm-8">
-                    <div id="map">
-                        <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.215434348509!2d-89.
-                        61452278588189!3d20.943861886044346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567174f6283a65%3A0x7c2057ef41c0fb6a!2sCalle+42%2C+Yucat%C3%A1n!5e0!3m2!1ses!2smx!4v1522511905178" 
-                        width="300" height="250" frameborder="0" style="border:16px dotted #1B1464" allowfullscreen>
-                    </iframe>
-                    <div>
-                    <div id="cotizarButtom" >
-                    <button id="cotizar" type="button" class="btn btn-md" data-toggle="modal" data-target="#cotizacion" style="margin-bottom: 16px">Cotiza con nosotros</button>
-                    <div>        
-                </div>   
+        <div class="container-fluid" id="contacto">
+            <!--<div class="row" >-->
+            <div class="col-sm-4">
+                <h1>Contacto</h1>
+                <h4>VIGAS PRETENSADAS, BOVEDILLA DE POLIESTIRENO Y PANEL</h4>
+                <h4 >Santa Rosa Fábrica
+                    <br> Calle 42 Sur Col. Leona Vicario
+                    <br> (999) 929 87 30
+                    <br> (999) 929 43 59</h4>
+                    <br><br>
+                    <button id="cotizar" type="button" class="btn btn-md" data-toggle="modal" data-target="#cotizacion">Cotiza con nosotros</button>
             </div>
-        </div>     
-        
+            <div class="col-sm-8">
+                <div class="container-fluid" id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14908.
+                    254555153948!2d-89.60908707147142!3d20.909759177005714!2m3!1f0!2f0!3f0!3m2
+                    !1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671dbc1b2134d%3A0xc45e2884a142c344!2sL
+                    eona+Vicario%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1522105577218" width="100%" 
+                    height="500" frameborder="0" style="border:0" allowfullscreen>
+                    </iframe>
+                </div>                
+            </div>
+            
+        </div>
 </body>
     <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="productos.js"></script>
     <script>
     var extension = {
   cycle: function(e, extra) {

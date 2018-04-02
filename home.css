@@ -37,8 +37,7 @@ body{
 }
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
-  background-color: #1B1464;
-  color: #fff;
+  color: #1B1464;
 }
 .navbar-header {
   margin-bottom: 20px;
@@ -56,12 +55,20 @@ video.fillWidth {
   padding-top: 5em;
   text-align: center;
 }
-#footer{
+
+#productos{
+  text-align: center;
+  padding-top: 5em;
+  font-family: Asap;
+}
+
+#contacto{
   text-align:center;
   background-color:#1B1464; 
   color:#fff; 
   font-family: Asap;
-  padding-top: 5em;
+  padding-top: 7em;
+  padding-bottom: 7em;
 }
 #cotizar{
   background-color:#fff; 
@@ -84,6 +91,15 @@ video.fillWidth {
   height:100%;
   margin-top: 6em;
  }
+
+#imagenTab{
+  height: 160px;
+}
+
+#imagenTab>img{
+  height: inherit;
+  width: 100%;
+}
 
 .btn-default{
   background-color: #1B1464;
