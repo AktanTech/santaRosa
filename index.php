@@ -28,7 +28,7 @@
                            if($("#navbar").offset().top < 80){
                              $("#navbar").css("opacity", ".9");
                            }  else {
-                                 $("#navbar").css("opacity", ".8");
+                                 $("#navbar").css("background-color", "transparent");
                                    }
                            }
                     
@@ -46,7 +46,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="">
-                    <img src="media/imagenes/Logo-Santa-Rosa-Azul 640x494.png" alt="Santa Rosa Fabrica" width="130em" style="margin-top:3px">
+                    <img src="media/imagenes/LogoSantaRosa.png" alt="Santa Rosa Fabrica" width="130em" style="margin-top:3px">
                 </a>
             </div>
 
@@ -421,7 +421,7 @@
                     <br> (999) 929 87 30
                     <br> (999) 929 43 59</h4>
                     <br><br>
-                    <button id="cotizar" type="button" class="btn btn-md" data-toggle="modal" data-target="#cotizacion">Cotiza con nosotros</button>
+                    <button id="cotizar" type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#cotizacion">Cotiza con nosotros</button>
             </div>
             <div class="col-sm-8">
                 <div class="container-fluid" id="map">

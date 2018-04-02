@@ -14,7 +14,7 @@ body{
 
 .navbar-default {
   height: 80px;
-  background-color: #fff;
+  /*background-color: #fff;*/
   font-family: Asap;
   color: #000;
   font-size: 130%;
@@ -25,7 +25,7 @@ body{
   padding-top: 0;
   padding-bottom: 0;
   line-height: 80px;
-  background-color: #fff;
+    /*background-color: #fff;*/
   color: #000;
   text-align: center;
 }
@@ -64,15 +64,15 @@ video.fillWidth {
 
 #contacto{
   text-align:center;
-  background-color:#1B1464; 
-  color:#fff; 
+  /*background-color:#1B1464; */
+  color:#000; 
   font-family: Asap;
   padding-top: 7em;
   padding-bottom: 7em;
 }
 #cotizar{
-  background-color:#fff; 
-  color:#000;
+  background-color:#1B1464; 
+  color:#fff;
   font-size:130%;
   border: 1px solid black;
 }
