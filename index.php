@@ -28,7 +28,7 @@
                            if($("#navbar").offset().top < 80){
                              $("#navbar").css("opacity", ".9");
                            }  else {
-                                 $("#navbar").css("background-color", "transparent");
+                                 $("#navbar").css("background-color", " transparent");
                                    }
                            }
                     
@@ -70,7 +70,7 @@
                             <a href="media/docs/Catálogo_Final.pdf" download="Catálogo_Santa_Rosa">DESCARGAR CATÁLOGO</a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/Santa-Rosa-F%C3%A1brica-140289986662439/"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.facebook.com/Santa-Rosa-F%C3%A1brica-140289986662439/" style="font-size:150%;color:#3B5998"><i class="fab fa-facebook-square"></i></a>
                         </li>
             </div>
             <!-- /.navbar-collapse -->
@@ -230,75 +230,6 @@
         <!-- Tarjetas de materiales -->
         <div class="container-fluid" id="productos">
             <h1>NUESTROS PRODUCTOS</h1>
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
-                <div class="caption">
-                    <h3>Lorem ipsum</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('1')">   Saber más </button>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
-                <div class="caption">
-                    <h3>Lorem ipsum</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('2')">   Saber más </button>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
-                <div class="caption">
-                    <h3>Lorem ipsum</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('3')">   Saber más </button>
-                </div>
-                </div>
-            </div>
-        
-
-         
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
-                <div class="caption">
-                    <h3>Lorem ipsum</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('4')">   Saber más </button>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
-                <div class="caption">
-                    <h3>Lorem ipsum</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('5')">   Saber más </button>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
-                <div class="caption">
-                    <h3>Lorem ipsum</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('6')">   Saber más </button>
-                </div>
-                </div>
-            </div>
-        
-
          
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
@@ -332,6 +263,7 @@
                 </div>
                 </div>
             </div>
+            
         </div>
 
         <!-- Modales de tarjeta de materiales -->     
