@@ -17,9 +17,30 @@
     <nav  id="navbar" class="navbar navbar-default navbar-fixed-top">
         <!-- Función para aumentar la transparencia del menú -->
         <script>
-            $(window).scroll(function() {
-                if ($("#navbar").offset().top < 56) {
+            var scrollHide = 150;
 
+           window.onscroll = function() {
+                var currentScrollPos = window.pageYOffset;
+                if (scrollHide > currentScrollPos) {
+                    document.getElementById("navbar").style.top = "0";
+                } else {
+                    document.getElementById("navbar").style.top = "-80px";
+                }
+                prevScrollpos = currentScrollPos;
+            }
+
+                $(document).mousemove(function(event){
+                    var pagina = event.clientY;
+
+                    if(pagina < 80){
+                        document.getElementById("navbar").style.top = "0";
+                    }
+                //$("#texto").text("Coordenadas en del ratón en la parte visible del navegador: " + event.clientX + ", " + event.clientY);
+                //$("#texto2").text("Coordenadas absolutas del ratón en la página actual: " + event.pageX + ", " + event.pageY);
+    	    });
+            $(window).scroll(function() {
+                
+                if ($("#navbar").offset().top < 56) {
                     $("#navbar").css("opacity", ".9");
                 } else { 
                     if($("#navbar").offset().top < 68){
@@ -28,12 +49,14 @@
                            if($("#navbar").offset().top < 80){
                              $("#navbar").css("opacity", ".9");
                            }  else {
-                                 $("#navbar").css("background-color", " transparent");
+                                 $("#navbar").css("background-color", "#fff transparent");
+                                 $("#navbar").css("transition", "top 0.3s")
                                    }
                            }
                     
                         }
                 });
+            
         </script>
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -77,7 +100,6 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-
     <!-- Carussel -->
 
             <div id="Carrusel">
@@ -89,32 +111,19 @@
                             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
                         </ol>
 
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
 
                         <div class="item active" data-duration="17000">
-                            <div id="mivideo" class="video-container container-flex">
-                                <video  id="Video" class="fillWidth" autoplay muted playsinline loop preload="auto">
-                                    <source src="./media/videos/SRF_Loop.mp4" type="video/mp4" /> Your browser does not support the video tag.
-                                </video>
-                                <!-- Detecta que el video ha finalizado 
-                                <script>
-                                    $(document).ready(function(){
-	                                 $("#Video").on('ended', function(){
-	                                 });
-                                    });
-                                </script>-->
-                            </div>
-                        </div>
                             <div class="item" data-duration="5000">
                                 <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin imagen">
                                 <div class="carousel-caption">
                                     <h1>Lorem ipsum</h1>
                                     <p>dolor sit amet, consectetur adipiscing elit</p>
                                 </div>
+                            </div>
                             </div>
                             <div class="item" data-duration="5000">
                                 <img src="./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png" alt="Sin Imagen">
@@ -159,11 +168,8 @@
                 <div id="Mision" class="tab-pane fade in active">
                     <h2>Misión</h2>
                     <div class="col-sm-8">
-                        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi molestiae quisquam sit, quos delectus possimus fugit quia labore enim consectetur assumenda vero nostrum. Accusamus in obcaecati velit consequatur nemo, officia.</span>
-                        <span>Ipsum facilis sint, repudiandae. Officia unde repellat illum quos dolor accusantium, quam facilis ex, excepturi tempore. Explicabo quia, quam! Voluptatibus qui necessitatibus quas optio unde deserunt vero, aliquam velit doloremque.</span>
-                        <span>Voluptates illum itaque dolor eos quae quasi tenetur consequuntur labore, natus voluptate mollitia, aperiam amet? Error reiciendis culpa ipsam reprehenderit facilis modi amet accusamus vero totam corporis atque animi, quisquam.</span>
-                        <span>Reprehenderit, quo facere quidem nisi corrupti atque quasi blanditiis ipsa, at debitis. Quidem quod nulla nemo nisi soluta inventore delectus! Iusto asperiores rem iure molestias ducimus beatae dignissimos eius fugiat?</span>
-                        <span>Qui doloremque autem repudiandae voluptatibus fugit vel in voluptas dolor, delectus, dolorem molestias, ipsum deserunt cum possimus ullam, ea saepe porro ipsam impedit. Veniam vero maxime, possimus nostrum incidunt hic.</span></p>
+                        <p><strong>Santa Rosa</strong> fábrica y comercializa materiales para la construcción de la mejor cálidad, precio y servicio
+                            para complir con la demanda de los consumidores de la industria</p>
                     </div>
                     <div class="col-sm-4">
                         <div class="container-fluid" id="imagenTab">
@@ -174,11 +180,9 @@
                 <div id="Vision" class="tab-pane fade">
                     <h2>Visión</h2>
                     <div class="col-sm-8">
-                        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi molestiae quisquam sit, quos delectus possimus fugit quia labore enim consectetur assumenda vero nostrum. Accusamus in obcaecati velit consequatur nemo, officia.</span>
-                        <span>Ipsum facilis sint, repudiandae. Officia unde repellat illum quos dolor accusantium, quam facilis ex, excepturi tempore. Explicabo quia, quam! Voluptatibus qui necessitatibus quas optio unde deserunt vero, aliquam velit doloremque.</span>
-                        <span>Voluptates illum itaque dolor eos quae quasi tenetur consequuntur labore, natus voluptate mollitia, aperiam amet? Error reiciendis culpa ipsam reprehenderit facilis modi amet accusamus vero totam corporis atque animi, quisquam.</span>
-                        <span>Reprehenderit, quo facere quidem nisi corrupti atque quasi blanditiis ipsa, at debitis. Quidem quod nulla nemo nisi soluta inventore delectus! Iusto asperiores rem iure molestias ducimus beatae dignissimos eius fugiat?</span>
-                        <span>Qui doloremque autem repudiandae voluptatibus fugit vel in voluptas dolor, delectus, dolorem molestias, ipsum deserunt cum possimus ullam, ea saepe porro ipsam impedit. Veniam vero maxime, possimus nostrum incidunt hic.</span></p>
+                        <p>Nosotros creemos en el trabajo duro y en la atención amable a las personas, creemos en enfocarnos en las áreas en donde 
+                        podemos tener un mayor impacto para que de está manera podamos contribuir en el desarrollo y crecimiento del país concéntrandonos
+                        en servir de la mejor manera posible</p>
                     </div>
                     <div class="col-sm-4">
                         <div class="container-fluid" id="imagenTab">
@@ -285,7 +289,7 @@
                     </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
             </div>
             </div>
         </div>
