@@ -15,7 +15,7 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="80">
     <nav  id="navbar" class="navbar navbar-default navbar-fixed-top">
-        <!-- Función para aumentar la transparencia del menú -->
+
         <script>
             var scrollHide = 150;
 
@@ -35,29 +35,9 @@
                     if(pagina < 80){
                         document.getElementById("navbar").style.top = "0";
                     }
-                //$("#texto").text("Coordenadas en del ratón en la parte visible del navegador: " + event.clientX + ", " + event.clientY);
-                //$("#texto2").text("Coordenadas absolutas del ratón en la página actual: " + event.pageX + ", " + event.pageY);
     	    });
-            $(window).scroll(function() {
-                
-                if ($("#navbar").offset().top < 56) {
-                    $("#navbar").css("opacity", ".9");
-                } else { 
-                    if($("#navbar").offset().top < 68){
-                        $("#navbar").css("opacity", ".9");
-                    }else  {
-                           if($("#navbar").offset().top < 80){
-                             $("#navbar").css("opacity", ".9");
-                           }  else {
-                                 $("#navbar").css("background-color", "#fff transparent");
-                                 $("#navbar").css("transition", "top 0.3s")
-                                   }
-                           }
-                    
-                        }
-                });
-            
         </script>
+
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -118,7 +98,7 @@
 
                         <div class="item active" data-duration="17000">
                             <div class="item" data-duration="5000">
-                                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin imagen">
+                                <img src="./media/imagenes/En-Construccion.jpeg" class="img-responsive" alt="Sin imagen">
                                 <div class="carousel-caption">
                                     <h1>Lorem ipsum</h1>
                                     <p>dolor sit amet, consectetur adipiscing elit</p>
@@ -160,9 +140,8 @@
         <div class="container-fluid" id="Nosotros">
             <h1>QUIENES SOMOS</h1>
             <ul class="nav nav-tabs">
-                <li style="width:33%; font-size:160%; text-align:center;"class="active"><a data-toggle="tab" href="#Mision">MISION</a></li>
-                <li style="width:33%; font-size:160%; text-align:center;" ><a data-toggle="tab" href="#Vision">VISION</a></li>
-                <li style="width:34%; font-size:160%; text-align:center; text-indent:-5px"><a data-toggle="tab" href="#Valores">VALORES</a></li>
+                <li style="width:50%; font-size:160%; text-align:center;"class="active"><a data-toggle="tab" href="#Mision">MISION</a></li>
+                <li style="width:50%; font-size:160%; text-align:center;" ><a data-toggle="tab" href="#Vision">VISION</a></li>
             </ul>
             <div class="tab-content">
                 <div id="Mision" class="tab-pane fade in active">
@@ -173,7 +152,7 @@
                     </div>
                     <div class="col-sm-4">
                         <div class="container-fluid" id="imagenTab">
-                            <img src="https://image.freepik.com/vector-gratis/fondo-abstracto-azul_1048-1511.jpg" alt="IMAGEN PRUEBA" class="img-responsive">
+                            <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin imagen" class="img-responsive">
                         </div>
                     </div>
                 </div>
@@ -186,50 +165,12 @@
                     </div>
                     <div class="col-sm-4">
                         <div class="container-fluid" id="imagenTab">
-                            <img src="https://image.freepik.com/vector-gratis/fondo-abstracto-azul_1048-1511.jpg" alt="IMAGEN PRUEBA" class="img-responsive">
-                        </div>
-                    </div>
-                </div>
-                <div id="Valores" class="tab-pane fade">
-                    <h2>Valores</h2>
-                    <div class="col-sm-8">
-                        <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi molestiae quisquam sit, quos delectus possimus fugit quia labore enim consectetur assumenda vero nostrum. Accusamus in obcaecati velit consequatur nemo, officia.</span>
-                        <span>Ipsum facilis sint, repudiandae. Officia unde repellat illum quos dolor accusantium, quam facilis ex, excepturi tempore. Explicabo quia, quam! Voluptatibus qui necessitatibus quas optio unde deserunt vero, aliquam velit doloremque.</span>
-                        <span>Voluptates illum itaque dolor eos quae quasi tenetur consequuntur labore, natus voluptate mollitia, aperiam amet? Error reiciendis culpa ipsam reprehenderit facilis modi amet accusamus vero totam corporis atque animi, quisquam.</span>
-                        <span>Reprehenderit, quo facere quidem nisi corrupti atque quasi blanditiis ipsa, at debitis. Quidem quod nulla nemo nisi soluta inventore delectus! Iusto asperiores rem iure molestias ducimus beatae dignissimos eius fugiat?</span>
-                        <span>Qui doloremque autem repudiandae voluptatibus fugit vel in voluptas dolor, delectus, dolorem molestias, ipsum deserunt cum possimus ullam, ea saepe porro ipsam impedit. Veniam vero maxime, possimus nostrum incidunt hic.</span></p>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="container-fluid" id="imagenTab">
-                            <img src="https://image.freepik.com/vector-gratis/fondo-abstracto-azul_1048-1511.jpg" alt="IMAGEN PRUEBA" class="img-responsive">
+                            <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin imagen" class="img-responsive">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-        <!-- <div class="container-fluid" id="Nosotros">
-            <h1>QUIENES SOMOS</h1>
-            <div class="col-sm-4">
-                <h1>Misión</h1>
-                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente reprehenderit illum eveniet error dolorem iusto, nulla autem! Id, neque labore tempora fugiat consequuntur dolores aliquam earum accusamus, totam nulla nisi.</span><span>Velit rem minus esse suscipit similique quisquam sequi perspiciatis sit, fuga et ratione doloremque fugiat voluptatum culpa debitis nostrum hic molestias ab eius incidunt architecto aliquam corporis assumenda temporibus? Sapiente?</span></p>
-            </div>
-            <div class="col-sm-4">
-                <h1>Visión</h1>
-                <p>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quia laudantium alias inventore quas velit, ex facilis laboriosam. Impedit praesentium modi sunt tempore eos architecto nisi, consequatur incidunt voluptate quaerat.</span><span>Enim, iste ipsam dolorem ut, ratione tempore dolores quidem temporibus, alias reprehenderit fuga commodi, eaque cupiditate aliquam unde praesentium necessitatibus. Facere a maxime non assumenda ut autem adipisci perferendis modi?</span>
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <h1>Valores</h1>
-                <p>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In laborum id quibusdam fuga, quisquam quis non, debitis illo obcaecati modi nihil iure porro consequatur corporis dolor fugiat, totam molestias nemo.</span><span>Soluta voluptas, ipsam tempora excepturi inventore consequatur numquam laudantium maxime, nobis id vero itaque ipsum nemo at et voluptate repellat atque voluptatem. Architecto modi inventore libero, distinctio repudiandae nobis, commodi.</span>
-                </p>
-            </div>
-        </div> -->
-
-
 
         <!-- Tarjetas de materiales -->
         <div class="container-fluid" id="productos">
@@ -241,7 +182,7 @@
                 <div class="caption">
                     <h3>Lorem ipsum</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('7')">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('1')">   Saber más </button>
                 </div>
                 </div>
             </div>
@@ -252,7 +193,7 @@
                 <div class="caption">
                     <h3>Lorem ipsum</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('8')">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('2')">   Saber más </button>
                 </div>
                 </div>
             </div>
@@ -263,7 +204,7 @@
                 <div class="caption">
                     <h3>Lorem ipsum</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('9')">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('3')">   Saber más </button>
                 </div>
                 </div>
             </div>
@@ -296,9 +237,6 @@
         </div>   
 <!-- Fin de tarjetas de materiales -->
 
-<!--     <div id="imagen" class="media" align="center">
-            <img class="img-responsive" src="./media/imagenes/En-Construccion.jpeg" alt="Not Found">
-    </div> -->
 
         <!-- Modal -->
         <div class="modal fade" id="cotizacion" role="dialog">

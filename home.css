@@ -2,6 +2,7 @@ body{
   position: relative;
   padding: 0px !important;
 }
+
 @font-face {
 	font-family: Asap;
 	src: url("./font/Asap-for-Web/Asap-Regular.ttf") format("truetype"),
@@ -12,29 +13,41 @@ body{
   url("./font/Asap-for-Web/Asap-Medium.ttf") format("truetype");
 }
 
+
 .navbar-default {
   height: 80px;
-  /*background-color: #fff;*/
+  background-color: #f9f9f9 transparent;
   font-family: Asap;
   color: #000;
   font-size: 120%;
+  opacity: .9;
+
   margin-bottom: auto;
+  border-bottom-width: 0px;
 }
 .navbar-default .navbar-nav > li > a,
 .navbar-brand {
   padding-top: 0;
   padding-bottom: 0;
   line-height: 80px;
-    /*background-color: #fff;*/
+  opacity: .9;
+  background-color:#f9f9f9;
   color: #000;
   text-align: center;
 }
+
+.tab-content p{
+  text-align: left;
+}
+
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:focus, 
 .navbar-default .navbar-nav > .active > a:hover{
-  background-color: #1B1464;
-  color: #fff;
+  color: black;
+  text-decoration: underline;
+  background-color: #f9f9f9;
 }
+
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
   color: #1B1464;
