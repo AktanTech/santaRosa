@@ -1,0 +1,132 @@
+body{
+  position: relative;
+  padding: 0px !important;
+}
+
+@font-face {
+	font-family: Asap;
+	src: url("./font/Asap-for-Web/Asap-Regular.ttf") format("truetype"),
+	url("./font/Asap-for-Web/Asap-BoldItalic.ttf") format("truetype"),
+	url("./font/Asap-for-Web/Asap-Bold.ttf") format("truetype"),
+  url("./font/Asap-for-Web/Asap-Italic.ttf") format("truetype"),
+  url("./font/Asap-for-Web/Asap-MediumItalic.ttf") format("truetype"),
+  url("./font/Asap-for-Web/Asap-Medium.ttf") format("truetype");
+}
+
+
+.navbar-default {
+  height: 80px;
+  /*background-color: #f9f9f9 transparent;*/
+  font-family: Asap;
+  /*color: #000;*/
+  font-size: 120%;
+  opacity: .9;
+
+  margin-bottom: auto;
+  border-bottom-width: 0px;
+}
+.navbar-default .navbar-nav > li > a,
+.navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 80px;
+  opacity: 1;
+  /*background-color:#f9f9f9;*/
+  color: #000;
+  text-align: center;
+}
+
+.tab-content p{
+  text-align: left;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover{
+  color: black;
+  text-decoration: underline;
+  font-weight: bolder;
+  /*background-color: #f9f9f9;*/
+}
+
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a:hover {
+  color: #421cff;
+}
+.navbar-header {
+  margin-bottom: 20px;
+}
+video.fillWidth {
+  width: 100%;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 100%;
+  margin: 0;
+  opacity: 0.65;
+
+}
+
+.imagen{
+  background-color: rgba(158,158,158,0.5);
+  background-size: cover;
+  filter:brightness(0.8);
+  width: 100%;
+  margin: 0;
+  height: 855px;
+}
+
+#Nosotros{
+  font-family: Asap;
+  padding-top: 5em;
+  text-align: center;
+}
+
+#productos{
+  text-align: center;
+  padding-top: 5em;
+  font-family: Asap;
+}
+
+#contacto{
+  text-align:center;
+  /*background-color:#1B1464; */
+  color:#000; 
+  font-family: Asap;
+  padding-top: 7em;
+  padding-bottom: 7em;
+}
+#cotizar{
+  background-color:#1B1464; 
+  color:#fff;
+  font-size:130%;
+  border: 1px solid black;
+}
+
+.modal-body{
+  font-family: Asap;
+}
+#Construction{
+  margin-top: 8em;
+  margin-bottom: 8em;
+  text-align:center;
+  font-family: Asap;
+}
+ #Carrusel{
+  width:100%;
+  height:100%;
+ }
+
+#imagenTab{
+  height: 160px;
+}
+
+#imagenTab>img{
+  height: inherit;
+  width: 100%;
+}
+
+.btn-default{
+  background-color: #1B1464;
+  color: #fff;
+}
