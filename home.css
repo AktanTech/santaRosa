@@ -104,6 +104,10 @@ video.fillWidth {
   height:100%;
  }
 
+ #Carrusel .item img{
+  filter:brightness(0.3);
+ }
+
 #imagenTab{
   height: 160px;
 }
