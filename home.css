@@ -67,13 +67,19 @@ video.fillWidth {
 
 }
 
-.imagen{
+#Carrusel img{
+  /**
   background-color: rgba(158,158,158,0.5);
   background-size: cover;
-  filter:brightness(0.8);
+  background-position: center;
+  position: relative;
+  
+  filter:brightness(0.1);
+  /**
   width: 100%;
   margin: 0;
-  height: 855px;
+  height: 800px;
+  */
 }
 
 #Nosotros{

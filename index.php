@@ -77,24 +77,24 @@
                         <div class="carousel-inner" role="listbox">
 
                             <div class="item active" data-duration="3000">
-                                <!--<img src="./media/imagenes/En-Construccion.jpeg" class="img-responsive" alt="Sin imagen">-->
-                                <div class="imagen" style="background-image: url('./media/imagenes/4_Negro.png');"></div>
+                                <img src="./media/imagenes/En-Construccion.jpeg" class="img-responsive" alt="Sin imagen">
+                               <!-- <div class="imagen container-fluid" style="background-image: url('./media/imagenes/4_Negro.png') ;"></div>-->
                                 <div class="carousel-caption">
                                     <h1>Lorem ipsum</h1>
                                     <p>dolor sit amet, consectetur adipiscing elit</p>
                                 </div>
                             </div>
                             <div class="item" data-duration="3000">
-                                <!--<img src="./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png" alt="Sin Imagen">-->
-                                <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>
+                                <img src="./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png" alt="Sin Imagen">
+                               <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
                                 <div class="carousel-caption">
                                     <h1>Lorem ipsum</h1>
                                     <p>dolor sit amet, consectetur adipiscing elit</p>
                                 </div>
                             </div>
                             <div class="item" data-duration="3000">
-                                <!--<img src="http://img.archiexpo.es/images_ae/photo-g/56982-10121856.jpg" alt="Sin Imagen">-->
-                                <div class="imagen" style="background-image: url('./media/imagenes/En-Construccion.jpeg');"></div>
+                                <img src="./media/imagenes/4_NEGRO.png" alt="Sin Imagen">
+                                <!--<div class="imagen" style="background-image: url('./media/imagenes/En-Construccion.jpeg');"></div>-->
                                 <div class="carousel-caption">
                                     <h1>Lorem ipsum</h1>
                                     <p>dolor sit amet, consectetur adipiscing elit</p>
@@ -164,6 +164,7 @@
                     <h3>Lorem ipsum</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('1')">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion">Cotizar</button>
                 </div>
                 </div>
             </div>
@@ -175,6 +176,7 @@
                     <h3>Lorem ipsum</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('2')">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion">Cotizar</button>
                 </div>
                 </div>
             </div>
@@ -186,6 +188,7 @@
                     <h3>Lorem ipsum</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('3')">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion">Cotizar</button>
                 </div>
                 </div>
             </div>
@@ -376,6 +379,8 @@ if(isset($_POST["textarea"])){
     $texto = $_POST["textarea"];
 }
     $mail = new PHPMailer(true);
+
+
     try{
         $mail->isSMTP();
 	$mail->Host = 'relay-hosting.secureserver.net'; //'smtp.office365.com'; //Servidor smtp del correo
