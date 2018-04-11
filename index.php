@@ -71,30 +71,62 @@
                             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
                         </ol>
 
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
 
                             <div class="item active" data-duration="3000">
-                                <img src="./media/imagenes/En-Construccion.jpeg" class="img-responsive" alt="Sin imagen">
+                                <img src="./media/imagenes/Entrada.png" class="img-responsive" alt="Sin imagen">
                                <!-- <div class="imagen container-fluid" style="background-image: url('./media/imagenes/4_Negro.png') ;"></div>-->
                                 <div class="carousel-caption">
                                     <h1>Lorem ipsum</h1>
                                     <p>dolor sit amet, consectetur adipiscing elit</p>
                                 </div>
                             </div>
+
                             <div class="item" data-duration="3000">
-                                <img src="./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png" alt="Sin Imagen">
+                                <img src="./media/imagenes/Desde1980.png" alt="Sin Imagen">
                                <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
                                 <div class="carousel-caption">
                                     <h1>Lorem ipsum</h1>
                                     <p>dolor sit amet, consectetur adipiscing elit</p>
                                 </div>
                             </div>
-                            <div class="item" data-duration="3000">
-                                <img src="./media/imagenes/4_NEGRO.png" alt="Sin Imagen">
-                                <!--<div class="imagen" style="background-image: url('./media/imagenes/En-Construccion.jpeg');"></div>-->
+
+                             <div class="item" data-duration="3000">
+                                <img src="./media/imagenes/webpage.png" alt="Sin Imagen">
+                               <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
+                                <div class="carousel-caption">
+                                    <h1>Lorem ipsum</h1>
+                                    <p>dolor sit amet, consectetur adipiscing elit</p>
+                                </div>
+                            </div>
+
+                             <div class="item" data-duration="3000">
+                                <img src="./media/imagenes/Foto4.png" alt="Sin Imagen">
+                               <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
+                                <div class="carousel-caption">
+                                    <h1>Lorem ipsum</h1>
+                                    <p>dolor sit amet, consectetur adipiscing elit</p>
+                                </div>
+                            </div>
+
+                             <div class="item" data-duration="3000">
+                                <img src="./media/imagenes/Foto5.png" alt="Sin Imagen">
+                               <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
+                                <div class="carousel-caption">
+                                    <h1>Lorem ipsum</h1>
+                                    <p>dolor sit amet, consectetur adipiscing elit</p>
+                                </div>
+                            </div>
+
+                             <div class="item" data-duration="3000">
+                                <img src="./media/imagenes/Foto6.png" alt="Sin Imagen">
+                               <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
                                 <div class="carousel-caption">
                                     <h1>Lorem ipsum</h1>
                                     <p>dolor sit amet, consectetur adipiscing elit</p>
@@ -133,21 +165,21 @@
                     </div>
                     <div class="col-sm-4">
                         <div class="container-fluid" id="imagenTab">
-                            <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin imagen" class="img-responsive">
+                            <img src="./media/imagenes/32.png" alt="Sin imagen" class="">
                         </div>
                     </div>
                 </div>
                 <div id="Vision" class="tab-pane fade">
                     <h2>Visión</h2>
+                    <div class="col-sm-4">
+                        <div class="container-fluid" id="imagenTab">
+                            <img src="./media/imagenes/32.png" alt="Sin imagen" class="img-responsive">
+                        </div>
+                    </div>
                     <div class="col-sm-8">
                         <p>Nosotros creemos en el trabajo duro y en la atención amable a las personas, creemos en enfocarnos en las áreas en donde 
                         podemos tener un mayor impacto para que de está manera podamos contribuir en el desarrollo y crecimiento del país concéntrandonos
                         en servir de la mejor manera posible</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <div class="container-fluid" id="imagenTab">
-                            <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin imagen" class="img-responsive">
-                        </div>
                     </div>
                 </div>
             </div>
@@ -159,33 +191,31 @@
          
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
+                <img src="./media/imagenes/6poliestireno.png" alt="Sin información">
                 <div class="caption">
-                    <h3>Lorem ipsum</h3>
+                    <h3>Panel</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('1')">   Saber más </button>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion">Cotizar</button>
                 </div>
                 </div>
             </div>
-
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
+                <img src="./media/imagenes/4_NEGRO.png" alt="Sin información">
                 <div class="caption">
-                    <h3>Lorem ipsum</h3>
+                    <h3>Bovedillas de Poliestireno</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('2')">   Saber más </button>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion">Cotizar</button>
                 </div>
                 </div>
             </div>
-
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
+                <img src="./media/imagenes/31.png" alt="Sin información">
                 <div class="caption">
-                    <h3>Lorem ipsum</h3>
+                    <h3>Vigas Pretensadas</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('3')">   Saber más </button>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion">Cotizar</button>
