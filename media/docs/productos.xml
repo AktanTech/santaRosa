@@ -2,9 +2,8 @@
 <Productos>
 	<Producto>
 		<id>1</id>
-		<Nombre>Producto 1</Nombre>
-		<Descripcion>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur deleniti eum esse quas dolorum optio, sed suscipit ipsam in voluptas quos ea asperiores, earum, consequatur rerum nesciunt ipsum minus ex.
-		Necessitatibus commodi, non, assumenda optio dicta aspernatur. Totam nostrum quod eveniet vero ea, nulla culpa laboriosam est delectus velit magni, hic eligendi, nobis asperiores rem, quam minus. Reiciendis, nostrum, dignissimos.</Descripcion>
+		<Nombre>BOVEDILLA PRETENSADA</Nombre>
+		<Descripcion>La Bovedilla es un componente aligerante utilizado en la construcción como molde, con las dimensiones adecuadas y necesarias para trabajar en los sistemas constructivos de vigueta pretensada.</Descripcion>
 		<url>./media/imagenes/4_Negro.png</url>
 	</Producto>
 	<Producto>
@@ -16,51 +15,20 @@
 	</Producto>
 	<Producto>
 		<id>3</id>
-		<Nombre>Producto 3</Nombre>
-		<Descripcion>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur deleniti eum esse quas dolorum optio, sed suscipit ipsam in voluptas quos ea asperiores, earum, consequatur rerum nesciunt ipsum minus ex.
-		Necessitatibus commodi, non, assumenda optio dicta aspernatur. Totam nostrum quod eveniet vero ea, nulla culpa laboriosam est delectus velit magni, hic eligendi, nobis asperiores rem, quam minus. Reiciendis, nostrum, dignissimos.</Descripcion>
+		<Nombre>CASETÓN CON POLIESTIRENO</Nombre>
+		<Descripcion>Los Casetones son bloques de poliestireno expandido de dimensiones variables de acuerdo a las necesidades de diseño.</Descripcion>
 		<url>./media/imagenes/4_Negro.png</url>
 	</Producto>
 	<Producto>
 		<id>4</id>
-		<Nombre>Producto 4</Nombre>
-		<Descripcion>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur deleniti eum esse quas dolorum optio, sed suscipit ipsam in voluptas quos ea asperiores, earum, consequatur rerum nesciunt ipsum minus ex.
-		Necessitatibus commodi, non, assumenda optio dicta aspernatur. Totam nostrum quod eveniet vero ea, nulla culpa laboriosam est delectus velit magni, hic eligendi, nobis asperiores rem, quam minus. Reiciendis, nostrum, dignissimos.</Descripcion>
+		<Nombre>VIGUETAS PRETENSADAS</Nombre>
+		<Descripcion>Las viguetas son elementos de concreto hidráulico responsables de la calidad de la losa.</Descripcion>
 		<url>https://image.freepik.com/vector-gratis/musica-imagenes-de-archivo_21-2846.jpg</url>
 	</Producto>
 	<Producto>
 		<id>5</id>
-		<Nombre>Producto 5</Nombre>
-		<Descripcion>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur deleniti eum esse quas dolorum optio, sed suscipit ipsam in voluptas quos ea asperiores, earum, consequatur rerum nesciunt ipsum minus ex.
-		Necessitatibus commodi, non, assumenda optio dicta aspernatur. Totam nostrum quod eveniet vero ea, nulla culpa laboriosam est delectus velit magni, hic eligendi, nobis asperiores rem, quam minus. Reiciendis, nostrum, dignissimos.</Descripcion>
+		<Nombre>POLIESTIERNO EXPANDIDO EPS</Nombre>
+		<Descripcion>Material plástico celular rígido fabricado a partir del moldeo de perlas pre expandidas de poliestireno. </Descripcion>
 		<url>https://www.telesurtv.net/__export/1510800706921/sites/telesur/img/multimedia/2017/11/15/what.jpg_1718483347.jpg</url>
-	</Producto>
-	<Producto>
-		<id>6</id>
-		<Nombre>Producto 6</Nombre>
-		<Descripcion>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur deleniti eum esse quas dolorum optio, sed suscipit ipsam in voluptas quos ea asperiores, earum, consequatur rerum nesciunt ipsum minus ex.
-		Necessitatibus commodi, non, assumenda optio dicta aspernatur. Totam nostrum quod eveniet vero ea, nulla culpa laboriosam est delectus velit magni, hic eligendi, nobis asperiores rem, quam minus. Reiciendis, nostrum, dignissimos.</Descripcion>
-		<url>https://www.gratistodo.com/wp-content/uploads/2016/09/imagenes-de-Spiderman-7-800x656.jpg</url>
-	</Producto>
-	<Producto>
-		<id>7</id>
-		<Nombre>Producto 7</Nombre>
-		<Descripcion>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur deleniti eum esse quas dolorum optio, sed suscipit ipsam in voluptas quos ea asperiores, earum, consequatur rerum nesciunt ipsum minus ex.
-		Necessitatibus commodi, non, assumenda optio dicta aspernatur. Totam nostrum quod eveniet vero ea, nulla culpa laboriosam est delectus velit magni, hic eligendi, nobis asperiores rem, quam minus. Reiciendis, nostrum, dignissimos.</Descripcion>
-		<url>https://image.freepik.com/vector-gratis/musica-imagenes-de-archivo_21-2846.jpg</url>
-	</Producto>
-	<Producto>
-		<id>8</id>
-		<Nombre>Producto 8</Nombre>
-		<Descripcion>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur deleniti eum esse quas dolorum optio, sed suscipit ipsam in voluptas quos ea asperiores, earum, consequatur rerum nesciunt ipsum minus ex.
-		Necessitatibus commodi, non, assumenda optio dicta aspernatur. Totam nostrum quod eveniet vero ea, nulla culpa laboriosam est delectus velit magni, hic eligendi, nobis asperiores rem, quam minus. Reiciendis, nostrum, dignissimos.</Descripcion>
-		<url>https://www.telesurtv.net/__export/1510800706921/sites/telesur/img/multimedia/2017/11/15/what.jpg_1718483347.jpg</url>
-	</Producto>
-	<Producto>
-		<id>9</id>
-		<Nombre>Producto 9</Nombre>
-		<Descripcion>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur deleniti eum esse quas dolorum optio, sed suscipit ipsam in voluptas quos ea asperiores, earum, consequatur rerum nesciunt ipsum minus ex.
-		Necessitatibus commodi, non, assumenda optio dicta aspernatur. Totam nostrum quod eveniet vero ea, nulla culpa laboriosam est delectus velit magni, hic eligendi, nobis asperiores rem, quam minus. Reiciendis, nostrum, dignissimos.</Descripcion>
-		<url>https://www.gratistodo.com/wp-content/uploads/2016/09/imagenes-de-Spiderman-7-800x656.jpg</url>
 	</Producto>
 </Productos>

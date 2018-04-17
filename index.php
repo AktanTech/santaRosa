@@ -193,7 +193,7 @@
                 <div class="thumbnail">
                 <img src="./media/imagenes/6poliestireno.png" alt="Sin información">
                 <div class="caption">
-                    <h3>Panel</h3>
+                    <h3>Bovedilla Pretensada</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('1')">   Saber más </button>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion">Cotizar</button>
@@ -204,7 +204,7 @@
                 <div class="thumbnail">
                 <img src="./media/imagenes/4_NEGRO.png" alt="Sin información">
                 <div class="caption">
-                    <h3>Bovedillas de Poliestireno</h3>
+                    <h3>Casetón de Poliestireno</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('2')">   Saber más </button>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion">Cotizar</button>
@@ -215,9 +215,21 @@
                 <div class="thumbnail">
                 <img src="./media/imagenes/31.png" alt="Sin información">
                 <div class="caption">
-                    <h3>Vigas Pretensadas</h3>
+                    <h3>Viguetas Pretensadas</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('3')">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion">Cotizar</button>
+                </div>
+                </div>
+            </div>
+
+             <div class="col-sm-3 col-md-4">
+                <div class="thumbnail">
+                <img src="./media/imagenes/6poliestireno.png" alt="Sin información">
+                <div class="caption">
+                    <h3>Polietileno Expandido EPS</h3>
+                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('1')">   Saber más </button>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion">Cotizar</button>
                 </div>
                 </div>

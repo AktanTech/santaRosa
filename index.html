@@ -13,28 +13,10 @@
 <link rel="stylesheet" href="home.css">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body data-spy="scroll" data-target=".navbar" data-offset="80">
+    <div id="banner" class="container-fluid">
     <nav  id="navbar" class="navbar navbar-default navbar-fixed-top">
-        <!-- Función para aumentar la transparencia del menú -->
-        <script>
-            $(window).scroll(function() {
-                if ($("#navbar").offset().top < 56) {
 
-                    $("#navbar").css("opacity", ".9");
-                } else { 
-                    if($("#navbar").offset().top < 68){
-                        $("#navbar").css("opacity", ".9");
-                    }else  {
-                           if($("#navbar").offset().top < 80){
-                             $("#navbar").css("opacity", ".9");
-                           }  else {
-                                 $("#navbar").css("opacity", ".8");
-                                   }
-                           }
-                    
-                        }
-                });
-        </script>
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -46,7 +28,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="">
-                    <img src="media/imagenes/Logo-Santa-Rosa-Azul 640x494.png" alt="Santa Rosa Fabrica" width="130em" style="margin-top:3px">
+                    <img src="media/imagenes/LogoSantaRosa.png" alt="Santa Rosa Fabrica" width="130em" style="margin-top:3px">
                 </a>
             </div>
 
@@ -54,27 +36,30 @@
 
                 <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li>
+                        <li id="opcion">
                            <a href="#Nosotros">NOSOTROS</a>
                         </li>
-                        <li>
-                           <a href="#footer">CONTACTO</a>
+                        <li id="opcion">
+                           <a href="#productos">PRODUCTOS</a>
                         </li>
-                        <li>
+                        <li id="opcion">
+                           <a href="#contacto">CONTACTO</a>
+                        </li>
+                        <li id="opcion">
                             <a href="#cotizar">COTIZA CON NOSOTROS</a>
                         </li>
-                        <li>
+                        <li id="opcion">
                             <a href="media/docs/Catálogo_Final.pdf" download="Catálogo_Santa_Rosa">DESCARGAR CATÁLOGO</a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/Santa-Rosa-F%C3%A1brica-140289986662439/"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.facebook.com/Santa-Rosa-F%C3%A1brica-140289986662439/" style="font-size:150%;color:#3B5998"><i class="fab fa-facebook-square"></i></a>
                         </li>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container-fluid -->
     </nav>
-
+    </div>
     <!-- Carussel -->
 
             <div id="Carrusel">
@@ -87,41 +72,61 @@
                             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="5"></li>
                         </ol>
 
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
 
-                        <div class="item active" data-duration="17000">
-                            <div id="mivideo" class="video-container container-flex">
-                                <video  id="Video" class="fillWidth" autoplay muted playsinline loop preload="auto">
-                                    <source src="./media/videos/SRF_Loop.mp4" type="video/mp4" /> Your browser does not support the video tag.
-                                </video>
-                                <!-- Detecta que el video ha finalizado 
-                                <script>
-                                    $(document).ready(function(){
-                                     $("#Video").on('ended', function(){
-                                     });
-                                    });
-                                </script>-->
-                            </div>
-                        </div>
-                            <div class="item" data-duration="5000">
-                                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin imagen">
+                            <div class="item active" data-duration="3000">
+                                <img src="./media/imagenes/Entrada.png" class="img-responsive" alt="Sin imagen">
+                               <!-- <div class="imagen container-fluid" style="background-image: url('./media/imagenes/4_Negro.png') ;"></div>-->
                                 <div class="carousel-caption">
                                     <h1>Lorem ipsum</h1>
                                     <p>dolor sit amet, consectetur adipiscing elit</p>
                                 </div>
                             </div>
-                            <div class="item" data-duration="5000">
-                                <img src="./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png" alt="Sin Imagen">
+
+                            <div class="item" data-duration="3000">
+                                <img src="./media/imagenes/Desde1980.png" alt="Sin Imagen">
+                               <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
                                 <div class="carousel-caption">
                                     <h1>Lorem ipsum</h1>
                                     <p>dolor sit amet, consectetur adipiscing elit</p>
                                 </div>
                             </div>
-                            <div class="item" data-duration="5000">
-                                <img src="http://img.archiexpo.es/images_ae/photo-g/56982-10121856.jpg" alt="Sin Imagen">
+
+                             <div class="item" data-duration="3000">
+                                <img src="./media/imagenes/webpage.png" alt="Sin Imagen">
+                               <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
+                                <div class="carousel-caption">
+                                    <h1>Lorem ipsum</h1>
+                                    <p>dolor sit amet, consectetur adipiscing elit</p>
+                                </div>
+                            </div>
+
+                             <div class="item" data-duration="3000">
+                                <img src="./media/imagenes/Foto4.png" alt="Sin Imagen">
+                               <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
+                                <div class="carousel-caption">
+                                    <h1>Lorem ipsum</h1>
+                                    <p>dolor sit amet, consectetur adipiscing elit</p>
+                                </div>
+                            </div>
+
+                             <div class="item" data-duration="3000">
+                                <img src="./media/imagenes/Foto5.png" alt="Sin Imagen">
+                               <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
+                                <div class="carousel-caption">
+                                    <h1>Lorem ipsum</h1>
+                                    <p>dolor sit amet, consectetur adipiscing elit</p>
+                                </div>
+                            </div>
+
+                             <div class="item" data-duration="3000">
+                                <img src="./media/imagenes/Foto6.png" alt="Sin Imagen">
+                               <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
                                 <div class="carousel-caption">
                                     <h1>Lorem ipsum</h1>
                                     <p>dolor sit amet, consectetur adipiscing elit</p>
@@ -147,130 +152,77 @@
         <!-- Sobre Nosotros Section -->
         <div class="container-fluid" id="Nosotros">
             <h1>QUIENES SOMOS</h1>
-            <div class="col-sm-4">
-                <h1>Misión</h1>
-                <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente reprehenderit illum eveniet error dolorem iusto, nulla autem! Id, neque labore tempora fugiat consequuntur dolores aliquam earum accusamus, totam nulla nisi.</span><span>Velit rem minus esse suscipit similique quisquam sequi perspiciatis sit, fuga et ratione doloremque fugiat voluptatum culpa debitis nostrum hic molestias ab eius incidunt architecto aliquam corporis assumenda temporibus? Sapiente?</span></p>
-            </div>
-            <div class="col-sm-4">
-                <h1>Visión</h1>
-                <p>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quia laudantium alias inventore quas velit, ex facilis laboriosam. Impedit praesentium modi sunt tempore eos architecto nisi, consequatur incidunt voluptate quaerat.</span><span>Enim, iste ipsam dolorem ut, ratione tempore dolores quidem temporibus, alias reprehenderit fuga commodi, eaque cupiditate aliquam unde praesentium necessitatibus. Facere a maxime non assumenda ut autem adipisci perferendis modi?</span>
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <h1>Valores</h1>
-                <p>
-                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In laborum id quibusdam fuga, quisquam quis non, debitis illo obcaecati modi nihil iure porro consequatur corporis dolor fugiat, totam molestias nemo.</span><span>Soluta voluptas, ipsam tempora excepturi inventore consequatur numquam laudantium maxime, nobis id vero itaque ipsum nemo at et voluptate repellat atque voluptatem. Architecto modi inventore libero, distinctio repudiandae nobis, commodi.</span>
-                </p>
+            <ul class="nav nav-tabs">
+                <li style="width:50%; font-size:160%; text-align:center;"class="active"><a data-toggle="tab" href="#Mision">MISION</a></li>
+                <li style="width:50%; font-size:160%; text-align:center;" ><a data-toggle="tab" href="#Vision">VISION</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="Mision" class="tab-pane fade in active">
+                    <h2>Misión</h2>
+                    <div class="col-sm-8">
+                        <p><strong>Santa Rosa</strong> fábrica y comercializa materiales para la construcción de la mejor cálidad, precio y servicio
+                            para complir con la demanda de los consumidores de la industria</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="container-fluid" id="imagenTab">
+                            <img src="./media/imagenes/32.png" alt="Sin imagen" class="">
+                        </div>
+                    </div>
+                </div>
+                <div id="Vision" class="tab-pane fade">
+                    <h2>Visión</h2>
+                    <div class="col-sm-4">
+                        <div class="container-fluid" id="imagenTab">
+                            <img src="./media/imagenes/32.png" alt="Sin imagen" class="img-responsive">
+                        </div>
+                    </div>
+                    <div class="col-sm-8">
+                        <p>Nosotros creemos en el trabajo duro y en la atención amable a las personas, creemos en enfocarnos en las áreas en donde 
+                        podemos tener un mayor impacto para que de está manera podamos contribuir en el desarrollo y crecimiento del país concéntrandonos
+                        en servir de la mejor manera posible</p>
+                    </div>
+                </div>
             </div>
         </div>
 
-
-
         <!-- Tarjetas de materiales -->
-        <div class="container-fluid">
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
-                <div class="caption">
-                    <h3>Lorem ipsum</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
-                <div class="caption">
-                    <h3>Lorem ipsum</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
-                <div class="caption">
-                    <h3>Lorem ipsum</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
-                </div>
-                </div>
-            </div>
-        
-
+        <div class="container-fluid" id="productos">
+            <h1>NUESTROS PRODUCTOS</h1>
          
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
+                <img src="./media/imagenes/6poliestireno.png" alt="Sin información">
                 <div class="caption">
-                    <h3>Lorem ipsum</h3>
+                    <h3>Panel</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('1')">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion">Cotizar</button>
                 </div>
                 </div>
             </div>
-
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
+                <img src="./media/imagenes/4_NEGRO.png" alt="Sin información">
                 <div class="caption">
-                    <h3>Lorem ipsum</h3>
+                    <h3>Bovedillas de Poliestireno</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('2')">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion">Cotizar</button>
                 </div>
                 </div>
             </div>
-
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
+                <img src="./media/imagenes/31.png" alt="Sin información">
                 <div class="caption">
-                    <h3>Lorem ipsum</h3>
+                    <h3>Vigas Pretensadas</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('3')">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion">Cotizar</button>
                 </div>
                 </div>
             </div>
-        
-
-         
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
-                <div class="caption">
-                    <h3>Lorem ipsum</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
-                <div class="caption">
-                    <h3>Lorem ipsum</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin información">
-                <div class="caption">
-                    <h3>Lorem ipsum</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal">   Saber más </button>
-                </div>
-                </div>
-            </div>
+            
         </div>
 
         <!-- Modales de tarjeta de materiales -->     
@@ -278,7 +230,7 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
             <div class="modal-header">
-                <h3 class="modal-title" style="text-align:center" id="exampleModalLabel">Lorem ipsum</h3>
+                <h3 class="modal-title" style="text-align:center" id="modalHeader"></h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
@@ -286,27 +238,19 @@
 
             <div class="modal-body">
                     <div class="thumbnail">
-                    <img src="./media/imagenes/En-Construccion.jpeg" alt="Sin imagen">
-                    <div class="caption">
-                        <p>dolor sit amet, consectetur adipiscing elit. Aenean ultricies, odio vulputate ullamcorper vulputate, 
-                            nibh odio pulvinar lorem, fringilla convallis justo sem eu risus. Maecenas in sagittis urna, eget eleifend enim. 
-                            Aliquam ultrices sollicitudin justo, sit amet auctor nisi tempus scelerisque. Vestibulum nisl tortor,
-                             gravida non imperdiet ut, vestibulum non orci. Vestibulum venenatis ante imperdiet tellus gravida tincidunt. 
-                             Aliquam vel turpis at nulla finibus dapibus. </p>
+                    <img alt="Sin imagen" id="modalImg">
+                    <div class="caption" id="txtHint">
                     </div>
                     </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
             </div>
             </div>
         </div>
         </div>   
-        <!-- Fin de tarjetas de materiales -->
+<!-- Fin de tarjetas de materiales -->
 
-    <div id="imagen" class="media" align="center">
-            <img class="img-responsive" src="./media/imagenes/En-Construccion.jpeg" alt="Not Found">
-    </div>
 
         <!-- Modal -->
         <div class="modal fade" id="cotizacion" role="dialog">
@@ -355,35 +299,37 @@
         </div>
 
         <!-- Footer Start-->
-        <div class="container-fluid" id="footer">
-            <div class="margin-top">
-                <div class="col-sm-4">
-                    <h1>Contacto</h1>
-                    <h4>VIGAS PRETENSADAS, BOVEDILLA DE POLIESTIRENO Y PANEL</h4>
-                    <h4 >Santa Rosa Fábrica
-                        <br> Calle 42 Sur Col. Leona Vicario
-                        <br> (999) 929 87 30
-                        <br> (999) 929 43 59</h4>
-                </div>
-                <div class="col-sm-8">
-                    <div id="map">
-                        <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3726.215434348509!2d-89.
-                        61452278588189!3d20.943861886044346!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f567174f6283a65%3A0x7c2057ef41c0fb6a!2sCalle+42%2C+Yucat%C3%A1n!5e0!3m2!1ses!2smx!4v1522511905178" 
-                        width="300" height="250" frameborder="0" style="border:16px dotted #1B1464" allowfullscreen>
-                    </iframe>
-                    <div>
-                    <div id="cotizarButtom" >
-                    <button id="cotizar" type="button" class="btn btn-md" data-toggle="modal" data-target="#cotizacion" style="margin-bottom: 16px">Cotiza con nosotros</button>
-                    <div>        
-                </div>   
+        <div class="container-fluid" id="contacto">
+            <!--<div class="row" >-->
+            <div class="col-sm-4">
+                <h1>Contacto</h1>
+                <h4>VIGAS PRETENSADAS, BOVEDILLA DE POLIESTIRENO Y PANEL</h4>
+                <h4 >Santa Rosa Fábrica
+                    <br> Calle 42 Sur Col. Leona Vicario
+                    <br> (999) 929 87 30
+                    <br> (999) 929 43 59</h4>
+                    <br><br>
+                    <button id="cotizar" type="button" class="btn btn-md btn-primary" data-toggle="modal" data-target="#cotizacion">Cotiza con nosotros</button>
             </div>
-        </div>     
-        
+            <div class="col-sm-8">
+                <div class="container-fluid" id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14908.
+                    254555153948!2d-89.60908707147142!3d20.909759177005714!2m3!1f0!2f0!3f0!3m2
+                    !1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671dbc1b2134d%3A0xc45e2884a142c344!2sL
+                    eona+Vicario%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1522105577218" width="100%" 
+                    height="500" frameborder="0" style="border:0" allowfullscreen>
+                    </iframe>
+                </div>                
+            </div>
+            
+        </div>
 </body>
+
     <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="productos.js"></script>
+    <script src="menu.js"></script>
     <script>
     var extension = {
   cycle: function(e, extra) {
