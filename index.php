@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="home.css">
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
-    
+
 <link rel="stylesheet" href="home.css">
 </head>
 
@@ -177,7 +177,7 @@
                         </div>
                     </div>
                     <div class="col-sm-8">
-                        <p>Nosotros creemos en el trabajo duro y en la atención amable a las personas, creemos en enfocarnos en las áreas en donde 
+                        <p>Nosotros creemos en el trabajo duro y en la atención amable a las personas, creemos en enfocarnos en las áreas en donde
                         podemos tener un mayor impacto para que de está manera podamos contribuir en el desarrollo y crecimiento del país concéntrandonos
                         en servir de la mejor manera posible</p>
                     </div>
@@ -188,15 +188,15 @@
         <!-- Tarjetas de materiales -->
         <div class="container-fluid" id="productos">
             <h1>NUESTROS PRODUCTOS</h1>
-         
+
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
                 <img src="./media/imagenes/6poliestireno.png" alt="Sin información">
                 <div class="caption">
-                    <h3>Bovedilla Pretensada</h3>
+                    <h3 id="producto1">Panel</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('1')">   Saber más </button>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion">Cotizar</button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion" onclick="asunto(1)" id="cotizar1">Cotizar</button>
                 </div>
                 </div>
             </div>
@@ -204,10 +204,10 @@
                 <div class="thumbnail">
                 <img src="./media/imagenes/4_NEGRO.png" alt="Sin información">
                 <div class="caption">
-                    <h3>Casetón de Poliestireno</h3>
+                    <h3 id="producto2">Bovedillas de Poliestireno</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('2')">   Saber más </button>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion">Cotizar</button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion" id="cotizar2" onclick="asunto(2)">Cotizar</button>
                 </div>
                 </div>
             </div>
@@ -215,29 +215,17 @@
                 <div class="thumbnail">
                 <img src="./media/imagenes/31.png" alt="Sin información">
                 <div class="caption">
-                    <h3>Viguetas Pretensadas</h3>
+                    <h3 id="producto3">Vigas Pretensadas</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('3')">   Saber más </button>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion">Cotizar</button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion" id="cotizar3" onclick="asunto(3)">Cotizar</button>
                 </div>
                 </div>
             </div>
 
-             <div class="col-sm-3 col-md-4">
-                <div class="thumbnail">
-                <img src="./media/imagenes/6poliestireno.png" alt="Sin información">
-                <div class="caption">
-                    <h3>Polietileno Expandido EPS</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('1')">   Saber más </button>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion">Cotizar</button>
-                </div>
-                </div>
-            </div>
-            
         </div>
 
-        <!-- Modales de tarjeta de materiales -->     
+        <!-- Modales de tarjeta de materiales -->
         <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -260,7 +248,7 @@
             </div>
             </div>
         </div>
-        </div>   
+        </div>
 <!-- Fin de tarjetas de materiales -->
 
 
@@ -287,6 +275,11 @@
                             <div class="form-group">
                                 <label for="email">Email address</label>
                                 <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Asunto</label>
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto">
                             </div>
 
                             <div class="form-group">
@@ -328,12 +321,12 @@
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14908.
                     254555153948!2d-89.60908707147142!3d20.909759177005714!2m3!1f0!2f0!3f0!3m2
                     !1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671dbc1b2134d%3A0xc45e2884a142c344!2sL
-                    eona+Vicario%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1522105577218" width="100%" 
+                    eona+Vicario%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1522105577218" width="100%"
                     height="500" frameborder="0" style="border:0" allowfullscreen>
                     </iframe>
-                </div>                
+                </div>
             </div>
-            
+
         </div>
 </body>
     <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
@@ -386,8 +379,35 @@ $(function() {
   $('#carousel-example-generic').carousel();
 });
 
+    </script>
 
+    <script type="text/javascript">
+      function asunto(ident) {
+        switch (ident) {
+          case 1:
+            var product = document.getElementById('producto1');
+            var subject = document.getElementById('subject');
+            subject.value = "Cotizacion de " + product.innerText;
+            break;
 
+          case 2:
+            var product = document.getElementById('producto2');
+            var subject = document.getElementById('subject');
+            subject.value = "Cotizacion de " + product.innerText;
+            break;
+
+          case 3:
+            var product = document.getElementById('producto3');
+            var subject = document.getElementById('subject');
+            subject.value = "Cotizacion de " + product.innerText;
+            break;
+
+            default:
+            var subject = document.getElementById('subject');
+            subject.value = "";
+            break;
+        }
+      }
     </script>
 
 </html>
@@ -412,9 +432,13 @@ if(isset($_POST["name"])){
 if(isset($_POST["phone"])){
     $celPhone = $_POST["phone"];
 }
-       
+
 if(isset($_POST["email"])){
     $correo = $_POST["email"];
+}
+
+if(isset($_POST["subject"])){
+    $asunto = $_POST["subject"];
 }
 
 if(isset($_POST["textarea"])){
@@ -429,41 +453,42 @@ if(isset($_POST["textarea"])){
         $mail->SMTPAuth = false;
         $mail->Username = 'ventas@santarosa.mx'; //Correo electronico del remitente
         $mail->Password = 'Santarosa1980%'; //Constraseña del remitente
-        
+
         $mail->SMTPSecure = false; //Tipo de seguridad
         $mail->Port = 25; //Puerto del servidor smtp
-        
+
         //-------------------------------------------------------
-        
+
         // Datos del Correo
-        
+
         $mail->SetFrom('ventas@santarosa.mx', utf8_decode("Santa Rosa Fábrica")); //Correo electronico del remitente y nombre(debe coindidir con el username)
         $mail->AddAddress('ventas@santarosa.mx', utf8_decode($nombre)); //Correo electronico  y nombre del destinatario
         $mail->addReplyTo(utf8_decode($correo), utf8_decode($nombre));
-        
+
         $mail->isHTML(true);
-        $mail->Subject = 'Cotizaciones de '. utf8_decode($nombre); //Asunto del correo electronico
+        $mail->Subject = utf8_decode(utf8_decode($asunto)); //Asunto del correo electronico
         $mail->Body = utf8_decode(
-        utf8_decode($nombre).'</br>'
-        .utf8_decode($celPhone).'</br>'
-        .utf8_decode($correo).'</br></br>'
-        . 'Me gustaría recibir una cotización de su empresa a nombre de ' . utf8_decode($nombre) .' con la siguiente descripción:</br>'
-        . utf8_decode($texto) .'</br></br>'
-        . 'De antemano muchas gracias</br>'
-        . 'Atte: '. utf8_decode($nombre));
+          'Datos del Solicitante: <br>'
+          .utf8_decode($nombre).'<br>'
+          .utf8_decode($celPhone).'<br>'
+          .utf8_decode($correo).'<br>'
+          . 'Me gustaría recibir una cotización de su empresa a nombre de ' . utf8_decode($nombre) .' con la siguiente descripción:<br>'
+          . utf8_decode($texto) .'<br>'
+          . 'De antemano muchas gracias <br>'
+          . 'Atte: '. utf8_decode($nombre));
         //Envio del mail
-        
+
         $mail->send();
         echo '<script>
         alert("Se ha enviado de forma correcta su mensaje");
             </script>';
-        
+
     }catch(Exception $e){
         echo '<script>
-        alert("El mensaje no se ha enviado de forma correcta");
+        alert("ERROR: El mensaje no se ha enviado");
         window.location.replace("index.php");
         </script>';
-        
+
     }
 }
 ?>
