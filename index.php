@@ -154,7 +154,7 @@
                  <div id="Us" class="tab-pane fade in active">
                     <h2>Nosotros</h2>
                     <div class="col-sm-9">
-                        <p><strong>Santa Rosa Fábrica </strong>, es una empresa de tradicion con  40 años de experiencia  en la que hemos 
+                        <p><strong>Santa Rosa Fábrica </strong>, es una empresa de tradición con  40 años de experiencia  en la que hemos 
                         trabajado con los mejores procesos de vanguardia en la producción de materiales para la construcción, donde elegimos 
                         concentrarnos en las áreas donde creamos un mayor impacto como los pretensados  y materiales a base de poliestireno 
                         expandido.</p>
@@ -169,8 +169,8 @@
                 <div id="Mision" class="tab-pane fade">
                     <h2>Misión</h2>
                     <div class="col-sm-9">
-                        <p><strong>Santa Rosa</strong> fábrica y comercializa materiales para la construcción de la mejor cálidad, precio y servicio
-                            para complir con la demanda de los consumidores de la industria</p>
+                        <p><strong>Santa Rosa</strong> fábrica y comercializa materiales para la construcción de la mejor calidad, precio y servicio
+                            para cumplir con la demanda de los consumidores de la industria</p>
                     </div>
                     <div class="col-sm-3">
                         <div class="container-fluid" id="imagenTab">
@@ -188,7 +188,7 @@
                     </div>
                     <div class="col-sm-9">
                         <p>Nosotros creemos en el trabajo duro y en la atención amable a las personas, creemos en enfocarnos en las áreas en donde
-                        podemos tener un mayor impacto para que de está manera podamos contribuir en el desarrollo y crecimiento del país concéntrandonos
+                        podemos tener un mayor impacto para que de está manera podamos contribuir en el desarrollo y crecimiento del país concentrándonos
                         en servir de la mejor manera posible</p>
                     </div>
                 </div>
@@ -295,8 +295,8 @@
                             </div>
 
                             <div class="form-group">
-                                <label for="email">Email address</label>
-                                <input type="email" class="form-control" name="email" id="email" placeholder="name@example.com">
+                                <label for="email">Correo Electrónico</label>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="name@ejemplo.com">
                             </div>
 
                             <div class="form-group">
