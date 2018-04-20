@@ -150,8 +150,8 @@
             <h1>QUIENES SOMOS</h1>
             <ul class="nav nav-tabs">
                 <li style="width:33%; font-size:160%; text-align:center;" class="active"><a data-toggle="tab" href="#Us">NOSOTROS</a></li>
-                <li style="width:33%; font-size:160%; text-align:center;" ><a data-toggle="tab" href="#Mision">MISION</a></li>
-                <li style="width:33%; font-size:160%; text-align:center;" ><a data-toggle="tab" href="#Vision">VISION</a></li>
+                <li style="width:33%; font-size:160%; text-align:center;" ><a data-toggle="tab" href="#Mision">MISIÓN</a></li>
+                <li style="width:33%; font-size:160%; text-align:center;" ><a data-toggle="tab" href="#Vision">VISIÓN</a></li>
             </ul>
             <div class="tab-content">
 
