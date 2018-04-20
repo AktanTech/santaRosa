@@ -84,7 +84,7 @@
                                <!-- <div class="imagen container-fluid" style="background-image: url('./media/imagenes/4_Negro.png') ;"></div>-->
                                 <div class="carousel-caption">
                                     <div class="col-xs-12">
-                                      <p id="txt-carousel">Vivimos el proceso</p>
+                                      <p>Vivimos el proceso</p>
                                     </div>
                                 </div>
                             </div>
@@ -93,8 +93,7 @@
                                 <img src="./media/imagenes/Desde1980.png" alt="Sin Imagen">
                                <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
                                 <div class="carousel-caption">
-                                    <h1>Lorem ipsum</h1>
-                                    <p>dolor sit amet, consectetur adipiscing elit</p>
+                                    <p>40 años de experiencia</p>
                                 </div>
                             </div>
 
@@ -102,8 +101,7 @@
                                 <img src="./media/imagenes/webpage.png" alt="Sin Imagen">
                                <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
                                 <div class="carousel-caption">
-                                    <h1>Lorem ipsum</h1>
-                                    <p>dolor sit amet, consectetur adipiscing elit</p>
+                                    <p>Calidad y servicio</p>
                                 </div>
                             </div>
 
@@ -111,8 +109,7 @@
                                 <img src="./media/imagenes/Foto4.png" alt="Sin Imagen">
                                <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
                                 <div class="carousel-caption">
-                                    <h1>Lorem ipsum</h1>
-                                    <p>dolor sit amet, consectetur adipiscing elit</p>
+                                    <p> Procesos innovadores en construcción</p>
                                 </div>
                             </div>
 
@@ -120,8 +117,7 @@
                                 <img src="./media/imagenes/Foto5.png" alt="Sin Imagen">
                                <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
                                 <div class="carousel-caption">
-                                    <h1>Lorem ipsum</h1>
-                                    <p>dolor sit amet, consectetur adipiscing elit</p>
+                                    <p>Somos fabricantes</p>
                                 </div>
                             </div>
 
@@ -129,8 +125,7 @@
                                 <img src="./media/imagenes/Foto6.png" alt="Sin Imagen">
                                <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
                                 <div class="carousel-caption">
-                                    <h1>Lorem ipsum</h1>
-                                    <p>dolor sit amet, consectetur adipiscing elit</p>
+                                    <p>Procesos innovadores</p>
                                 </div>
                             </div>
                         </div>
@@ -192,10 +187,10 @@
 
             <div class="col-sm-6 col-md-6">
                 <div class="thumbnail">
-                <img src="./media/imagenes/6poliestireno.png" alt="Sin información">
+                <img src="./media/imagenes/Web1_SRF13.png" alt="Sin información">
                 <div class="caption">
-                    <h3 id="producto1">Panel</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
+                    <h3 id="producto1">BOVEDILLA PRETENSADA</h3>
+                    <p>La Bovedilla es un componente aligerante utilizado en la construcción como molde...</p>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('1')">   Saber más </button>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion" onclick="asunto(1)" id="cotizar1">Cotizar</button>
                 </div>
@@ -203,10 +198,10 @@
             </div>
             <div class="col-sm-6 col-md-6">
                 <div class="thumbnail">
-                <img src="./media/imagenes/4_NEGRO.png" alt="Sin información" style="height:30.5em">
+                <img src="./media/imagenes/Web1_SRF6.png" alt="Sin información">
                 <div class="caption">
-                    <h3 id="producto2">Bovedillas de Poliestireno</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
+                    <h3 id="producto2">CASETÓN CON POLIESTIRENO</h3>
+                    <p>Los Casetones son bloques de poliestireno expandido...</p>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('2')">   Saber más </button>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion" id="cotizar2" onclick="asunto(2)">Cotizar</button>
                 </div>
@@ -216,8 +211,8 @@
                 <div class="thumbnail">
                 <img src="./media/imagenes/31.png" alt="Sin información">
                 <div class="caption">
-                    <h3 id="producto3">Vigas Pretensadas</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
+                    <h3 id="producto3">VIGUETAS PRETENSADAS</h3>
+                    <p>Las viguetas son elementos de concreto hidráulico...</p>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('3')">   Saber más </button>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion" id="cotizar3" onclick="asunto(3)">Cotizar</button>
                 </div>
@@ -225,10 +220,10 @@
             </div>
             <div class="col-sm-6 col-md-6">
                 <div class="thumbnail">
-                <img src="./media/imagenes/31.png" alt="Sin información">
+                <img src="./media/imagenes/Web1_SRF8.png" alt="Sin información">
                 <div class="caption">
-                    <h3 id="producto4">Poliestireno Expandido</h3>
-                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
+                    <h3 id="producto4">POLIESTIERNO EXPANDIDO EPS</h3>
+                    <p>Material plástico celular rígido fabricado a partir... </p>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('4')">   Saber más </button>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion" id="cotizar4" onclick="asunto(4)">Cotizar</button>
                 </div>
@@ -384,6 +379,17 @@
     this.cycle(true, true)
   }
 }
+
+    //Cambio cuando existe una transicion en el carrusel
+    $("#carousel-example-generic").on('slide.bs.carousel', function () {
+        var posicion = ["center","center","right","left"];
+        var aleatorio = Math.ceil(Math.random()*(posicion.length))
+        if(posicion[aleatorio] != undefined){
+            $("#Carrusel p").css({"text-align": posicion[aleatorio]})
+        }
+        
+        
+    });
 
 $.extend($["fn"]["carousel"]["Constructor"].prototype, extension);
 

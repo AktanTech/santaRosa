@@ -4,24 +4,24 @@
 		<id>1</id>
 		<Nombre>BOVEDILLA PRETENSADA</Nombre>
 		<Descripcion>La Bovedilla es un componente aligerante utilizado en la construcción como molde, con las dimensiones adecuadas y necesarias para trabajar en los sistemas constructivos de vigueta pretensada.</Descripcion>
-		<url>./media/imagenes/4_Negro.png</url>
+		<url>./media/imagenes/bovedillaPretensada.png</url>
 	</Producto>
 	<Producto>
 		<id>2</id>
 		<Nombre>CASETÓN CON POLIESTIRENO</Nombre>
 		<Descripcion>Los Casetones son bloques de poliestireno expandido de dimensiones variables de acuerdo a las necesidades de diseño.</Descripcion>
-		<url>./media/imagenes/4_Negro.png</url>
+		<url>./media/imagenes/Web1_SRF5.png</url>
 	</Producto>
 	<Producto>
 		<id>3</id>
 		<Nombre>VIGUETAS PRETENSADAS</Nombre>
 		<Descripcion>Las viguetas son elementos de concreto hidráulico responsables de la calidad de la losa.</Descripcion>
-		<url>https://image.freepik.com/vector-gratis/musica-imagenes-de-archivo_21-2846.jpg</url>
+		<url>./media/imagenes/31.png</url>
 	</Producto>
 	<Producto>
 		<id>4</id>
 		<Nombre>POLIESTIERNO EXPANDIDO EPS</Nombre>
 		<Descripcion>Material plástico celular rígido fabricado a partir del moldeo de perlas pre expandidas de poliestireno. </Descripcion>
-		<url>https://www.telesurtv.net/__export/1510800706921/sites/telesur/img/multimedia/2017/11/15/what.jpg_1718483347.jpg</url>
+		<url>./media/imagenes/Web1_SRF7.png</url>
 	</Producto>
 </Productos>

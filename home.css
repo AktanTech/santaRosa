@@ -13,7 +13,6 @@ body{
   url("./font/Asap-for-Web/Asap-Medium.ttf") format("truetype");
 }
 
-
 .navbar-default {
   height: 80px;
   /*background-color: #f9f9f9 transparent;*/
@@ -68,6 +67,11 @@ video.fillWidth {
 
 #Carrusel img{
   filter: brightness(0.5);
+}
+
+#Carrusel p{
+  
+  font-size: 5vw;
 }
 
 #Nosotros{
