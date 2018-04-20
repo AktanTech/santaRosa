@@ -209,7 +209,7 @@
             </div>
             <div class="col-sm-6 col-md-6">
                 <div class="thumbnail">
-                <img src="./media/imagenes/31.png" alt="Sin información">
+                <img src="./media/imagenes/Foto4.png" alt="Sin información">
                 <div class="caption">
                     <h3 id="producto3">VIGUETAS PRETENSADAS</h3>
                     <p>Las viguetas son elementos de concreto hidráulico...</p>
