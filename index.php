@@ -83,8 +83,9 @@
                                 <img src="./media/imagenes/Entrada.png" class="img-responsive" alt="Sin imagen">
                                <!-- <div class="imagen container-fluid" style="background-image: url('./media/imagenes/4_Negro.png') ;"></div>-->
                                 <div class="carousel-caption">
-                                    <h1>Lorem ipsum</h1>
-                                    <p>dolor sit amet, consectetur adipiscing elit</p>
+                                    <div class="col-xs-12">
+                                      <p id="txt-carousel">Vivimos el proceso</p>
+                                    </div>
                                 </div>
                             </div>
 
@@ -189,7 +190,7 @@
         <div class="container-fluid" id="productos">
             <h1>NUESTROS PRODUCTOS</h1>
 
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-6">
                 <div class="thumbnail">
                 <img src="./media/imagenes/6poliestireno.png" alt="Sin información">
                 <div class="caption">
@@ -200,9 +201,9 @@
                 </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-6">
                 <div class="thumbnail">
-                <img src="./media/imagenes/4_NEGRO.png" alt="Sin información">
+                <img src="./media/imagenes/4_NEGRO.png" alt="Sin información" style="height:30.5em">
                 <div class="caption">
                     <h3 id="producto2">Bovedillas de Poliestireno</h3>
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
@@ -211,7 +212,7 @@
                 </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-6">
                 <div class="thumbnail">
                 <img src="./media/imagenes/31.png" alt="Sin información">
                 <div class="caption">
@@ -219,6 +220,17 @@
                     <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('3')">   Saber más </button>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion" id="cotizar3" onclick="asunto(3)">Cotizar</button>
+                </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <div class="thumbnail">
+                <img src="./media/imagenes/31.png" alt="Sin información">
+                <div class="caption">
+                    <h3 id="producto4">Poliestireno Expandido</h3>
+                    <p>In at condimentum leo, tempor porta tortor. Pellentesque et mattis eros. Pellentesque luctus sollicitudin cursus. Etiam egestas libero ut mollis egestas.</p>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('4')">   Saber más </button>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion" id="cotizar4" onclick="asunto(4)">Cotizar</button>
                 </div>
                 </div>
             </div>
@@ -398,6 +410,12 @@ $(function() {
 
           case 3:
             var product = document.getElementById('producto3');
+            var subject = document.getElementById('subject');
+            subject.value = "Cotizacion de " + product.innerText;
+            break;
+
+          case 4:
+            var product = document.getElementById('producto4');
             var subject = document.getElementById('subject');
             subject.value = "Cotizacion de " + product.innerText;
             break;
