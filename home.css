@@ -50,6 +50,7 @@ body{
   /*background-color: #f9f9f9;*/
 }
 
+
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-default .navbar-nav>li>a:hover {
   color: #421cff;
@@ -69,6 +70,18 @@ body{
   filter: brightness(0.5);
 }
 
+.navbar-toggle{
+  outline: none;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: none;
+}
+
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
 #Carrusel p{
   font-size: 5vw;
 }
@@ -80,7 +93,7 @@ body{
 }
 
 #Nosotros p{
-  font-size: 1.5vw;
+  font-size: 20px;
 }
 
 #productos{

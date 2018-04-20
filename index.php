@@ -20,13 +20,9 @@
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                    aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+                <div class="navbar-toggle collapsed" data-toggle="collapse" data-target="https://www.facebook.com/Santa-Rosa-F%C3%A1brica-140289986662439/">
+                <a href="https://www.facebook.com/Santa-Rosa-F%C3%A1brica-140289986662439/" target="_blank" style="font-size:150%;color:#3B5998"><i class="fab fa-facebook-square"></i></a>
+                </div>
                 <a class="navbar-brand" href="">
                     <img src="media/imagenes/LogoSantaRosa.png" alt="Santa Rosa Fabrica" width="130em" style="margin-top:3px">
                 </a>
@@ -52,7 +48,7 @@
                             <a href="media/docs/Catálogo_Final.pdf" download="Catálogo_Santa_Rosa">DESCARGAR CATÁLOGO</a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/Santa-Rosa-F%C3%A1brica-140289986662439/" style="font-size:150%;color:#3B5998"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://www.facebook.com/Santa-Rosa-F%C3%A1brica-140289986662439/"  target="_blank" style="font-size:150%;color:#3B5998"><i class="fab fa-facebook-square"></i></a>
                         </li>
             </div>
             <!-- /.navbar-collapse -->
@@ -148,10 +144,10 @@
         <!-- Sobre Nosotros Section -->
         <div class="container-fluid" id="Nosotros">
             <h1>QUIENES SOMOS</h1>
-            <ul class="nav nav-tabs">
-                <li style="width:33%; font-size:160%; text-align:center;" class="active"><a data-toggle="tab" href="#Us">NOSOTROS</a></li>
-                <li style="width:33%; font-size:160%; text-align:center;" ><a data-toggle="tab" href="#Mision">MISIÓN</a></li>
-                <li style="width:33%; font-size:160%; text-align:center;" ><a data-toggle="tab" href="#Vision">VISIÓN</a></li>
+            <ul class="nav nav-tabs nav-justified">
+                <li style="font-size:160%; text-align:center;" class="active"><a data-toggle="tab" href="#Us">NOSOTROS</a></li>
+                <li style="font-size:160%; text-align:center;" ><a data-toggle="tab" href="#Mision">MISIÓN</a></li>
+                <li style="font-size:160%; text-align:center;" ><a data-toggle="tab" href="#Vision">VISIÓN</a></li>
             </ul>
             <div class="tab-content">
 
@@ -208,7 +204,7 @@
                 <div class="thumbnail">
                 <img src="./media/imagenes/Web1_SRF13.png" alt="Sin información">
                 <div class="caption">
-                    <h3 id="producto1">BOVEDILLA PRETENSADA</h3>
+                    <h3 id="producto1">BOVEDILLA DE POLIESTIRENO</h3>
                     <p>La Bovedilla es un componente aligerante utilizado en la construcción como molde...</p>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('1')">   Saber más </button>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion" onclick="asunto(1)" id="cotizar1">Cotizar</button>
@@ -344,11 +340,8 @@
             </div>
             <div class="col-sm-8">
                 <div class="container-fluid" id="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14908.
-                    254555153948!2d-89.60908707147142!3d20.909759177005714!2m3!1f0!2f0!3f0!3m2
-                    !1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671dbc1b2134d%3A0xc45e2884a142c344!2sL
-                    eona+Vicario%2C+Yuc.!5e0!3m2!1ses-419!2smx!4v1522105577218" width="100%"
-                    height="500" frameborder="0" style="border:0" allowfullscreen>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5329.928832312058!2d-89.60600032028215!3d20.91692500518287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe6b0ba5af8913846!2sVigas+Preforzadas+Santa+Rosa!5e0!3m2!1ses-419!2smx!4v1524262299054"
+                     width="100%" height="500" frameborder="0" style="border:0" allowfullscreen>
                     </iframe>
                 </div>
             </div>
