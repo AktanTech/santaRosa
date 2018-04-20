@@ -15,15 +15,17 @@ body{
 
 .navbar-default {
   height: 80px;
-  /*background-color: #f9f9f9 transparent;*/
+  /*background-color: #f9f9f9 transparent;
   font-family: Asap;
   /*color: #000;*/
-  font-size: 120%;
+  font-size: 110%;
   opacity: .9;
-
+  
   margin-bottom: auto;
   border-bottom-width: 0px;
 }
+
+
 .navbar-default .navbar-nav > li > a,
 .navbar-brand {
   padding-top: 0;
@@ -33,6 +35,7 @@ body{
   /*background-color:#f9f9f9;*/
   color: #000;
   text-align: center;
+
 }
 
 .tab-content p{
@@ -55,9 +58,7 @@ body{
 .navbar-header {
   margin-bottom: 20px;
 }
-video.fillWidth {
-  width: 100%;
-}
+
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   width: 100%;
@@ -70,7 +71,6 @@ video.fillWidth {
 }
 
 #Carrusel p{
-  
   font-size: 5vw;
 }
 
@@ -78,6 +78,10 @@ video.fillWidth {
   font-family: Asap;
   padding-top: 5em;
   text-align: center;
+}
+
+#Nosotros p{
+  font-size: 1.5vw;
 }
 
 #productos{
@@ -117,11 +121,12 @@ video.fillWidth {
 
 #imagenTab{
   height: 160px;
+  width: auto;
 }
 
 #imagenTab>img{
   height: inherit;
-  width: 100%;
+  width: auto;
 }
 
 .btn-default{

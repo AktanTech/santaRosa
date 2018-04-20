@@ -149,35 +149,54 @@
         <div class="container-fluid" id="Nosotros">
             <h1>QUIENES SOMOS</h1>
             <ul class="nav nav-tabs">
-                <li style="width:50%; font-size:160%; text-align:center;"class="active"><a data-toggle="tab" href="#Mision">MISION</a></li>
-                <li style="width:50%; font-size:160%; text-align:center;" ><a data-toggle="tab" href="#Vision">VISION</a></li>
+                <li style="width:33%; font-size:160%; text-align:center;" class="active"><a data-toggle="tab" href="#Us">NOSOTROS</a></li>
+                <li style="width:33%; font-size:160%; text-align:center;" ><a data-toggle="tab" href="#Mision">MISION</a></li>
+                <li style="width:33%; font-size:160%; text-align:center;" ><a data-toggle="tab" href="#Vision">VISION</a></li>
             </ul>
             <div class="tab-content">
-                <div id="Mision" class="tab-pane fade in active">
-                    <h2>Misión</h2>
-                    <div class="col-sm-8">
-                        <p><strong>Santa Rosa</strong> fábrica y comercializa materiales para la construcción de la mejor cálidad, precio y servicio
-                            para complir con la demanda de los consumidores de la industria</p>
+
+                 <div id="Us" class="tab-pane fade in active">
+                    <h2>Nosotros</h2>
+                    <div class="col-sm-9">
+                        <p><strong>Santa Rosa Fábrica </strong>, es una empresa de tradicion con  40 años de experiencia  en la que hemos 
+                        trabajado con los mejores procesos de vanguardia en la producción de materiales para la construcción, donde elegimos 
+                        concentrarnos en las áreas donde creamos un mayor impacto como los pretensados  y materiales a base de poliestireno 
+                        expandido.</p>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <div class="container-fluid" id="imagenTab">
                             <img src="./media/imagenes/32.png" alt="Sin imagen" class="">
                         </div>
                     </div>
                 </div>
+
+                <div id="Mision" class="tab-pane fade">
+                    <h2>Misión</h2>
+                    <div class="col-sm-9">
+                        <p><strong>Santa Rosa</strong> fábrica y comercializa materiales para la construcción de la mejor cálidad, precio y servicio
+                            para complir con la demanda de los consumidores de la industria</p>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="container-fluid" id="imagenTab">
+                            <img src="./media/imagenes/32.png" alt="Sin imagen" class="">
+                        </div>
+                    </div>
+                </div>
+
                 <div id="Vision" class="tab-pane fade">
                     <h2>Visión</h2>
-                    <div class="col-sm-4">
+                    <div class="col-sm-3">
                         <div class="container-fluid" id="imagenTab">
                             <img src="./media/imagenes/32.png" alt="Sin imagen" class="img-responsive">
                         </div>
                     </div>
-                    <div class="col-sm-8">
+                    <div class="col-sm-9">
                         <p>Nosotros creemos en el trabajo duro y en la atención amable a las personas, creemos en enfocarnos en las áreas en donde
                         podemos tener un mayor impacto para que de está manera podamos contribuir en el desarrollo y crecimiento del país concéntrandonos
                         en servir de la mejor manera posible</p>
                     </div>
                 </div>
+
             </div>
         </div>
 
@@ -209,7 +228,7 @@
             </div>
             <div class="col-sm-6 col-md-6">
                 <div class="thumbnail">
-                <img src="./media/imagenes/Foto4.png" alt="Sin información">
+                <img src="./media/imagenes/Web1_SRF16.png" alt="Sin información">
                 <div class="caption">
                     <h3 id="producto3">VIGUETAS PRETENSADAS</h3>
                     <p>Las viguetas son elementos de concreto hidráulico...</p>
@@ -381,6 +400,7 @@
 }
 
     //Cambio cuando existe una transicion en el carrusel
+    /** 
     $("#carousel-example-generic").on('slide.bs.carousel', function () {
         var posicion = ["center","center","right","left"];
         var aleatorio = Math.ceil(Math.random()*(posicion.length))
@@ -390,6 +410,10 @@
         
         
     });
+    */
+   $(".carousel-inner  .item  img").css("max-height",screen.availHeight-80)
+   $(".carousel-inner .item a img").css("max-height",screen.availHeight-80)
+  
 
 $.extend($["fn"]["carousel"]["Constructor"].prototype, extension);
 
