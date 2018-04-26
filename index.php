@@ -154,9 +154,9 @@
                  <div id="Us" class="tab-pane fade in active">
                     <h2>Nosotros</h2>
                     <div class="col-sm-9">
-                        <p><strong>Santa Rosa Fábrica </strong>, es una empresa de tradición con  40 años de experiencia  en la que hemos 
-                        trabajado con los mejores procesos de vanguardia en la producción de materiales para la construcción, donde elegimos 
-                        concentrarnos en las áreas donde creamos un mayor impacto como los pretensados  y materiales a base de poliestireno 
+                        <p><strong>Santa Rosa Fábrica </strong>, es una empresa de tradición con  40 años de experiencia  en la que hemos
+                        trabajado con los mejores procesos de vanguardia en la producción de materiales para la construcción, donde elegimos
+                        concentrarnos en las áreas donde creamos un mayor impacto como los pretensados  y materiales a base de poliestireno
                         expandido.</p>
                     </div>
                     <div class="col-sm-3">
@@ -169,8 +169,8 @@
                 <div id="Mision" class="tab-pane fade">
                     <h2>Misión</h2>
                     <div class="col-sm-9">
-                        <p><strong>Santa Rosa</strong> fábrica y comercializa materiales para la construcción de la mejor calidad, precio y servicio
-                            para cumplir con la demanda de los consumidores de la industria</p>
+                        <p><strong>Santa Rosa</strong> fabrica y comercializa materiales para la construcción de la mejor calidad, precio y servicio
+                            para cumplir con la demanda de los consumidores de la industria.</p>
                     </div>
                     <div class="col-sm-3">
                         <div class="container-fluid" id="imagenTab">
@@ -188,8 +188,8 @@
                     </div>
                     <div class="col-sm-9">
                         <p>Nosotros creemos en el trabajo duro y en la atención amable a las personas, creemos en enfocarnos en las áreas en donde
-                        podemos tener un mayor impacto para que de está manera podamos contribuir en el desarrollo y crecimiento del país concentrándonos
-                        en servir de la mejor manera posible</p>
+                        podemos tener un mayor impacto para que de esta manera podamos contribuir en el desarrollo y crecimiento del país concentrándonos
+                        en servir de la mejor manera posible.</p>
                     </div>
                 </div>
 
@@ -226,7 +226,7 @@
                 <div class="thumbnail">
                 <img src="./media/imagenes/Web1_SRF16.png" alt="Sin información">
                 <div class="caption">
-                    <h3 id="producto3">VIGUETAS PRETENSADAS</h3>
+                    <h3 id="producto3">VIGUETA PRETENSADA</h3>
                     <p>Las viguetas son elementos de concreto hidráulico...</p>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('3')">   Saber más </button>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion" id="cotizar3" onclick="asunto(3)">Cotizar</button>
@@ -330,9 +330,8 @@
             <!--<div class="row" >-->
             <div class="col-sm-4">
                 <h1>Contacto</h1>
-                <h4>VIGAS PRETENSADAS, BOVEDILLA DE POLIESTIRENO Y PANEL</h4>
-                <h4 >Santa Rosa Fábrica
-                    <br> Calle 42 Sur Col. Leona Vicario
+                <h4>SANTA ROSA FÁBRICA</h4>
+                <h4 >Calle 42 Sur Col. Leona Vicario
                     <br> (999) 929 87 30
                     <br> (999) 929 43 59</h4>
                     <br><br>
@@ -393,20 +392,20 @@
 }
 
     //Cambio cuando existe una transicion en el carrusel
-    /** 
+    /**
     $("#carousel-example-generic").on('slide.bs.carousel', function () {
         var posicion = ["center","center","right","left"];
         var aleatorio = Math.ceil(Math.random()*(posicion.length))
         if(posicion[aleatorio] != undefined){
             $("#Carrusel p").css({"text-align": posicion[aleatorio]})
         }
-        
-        
+
+
     });
     */
    $(".carousel-inner  .item  img").css("max-height",screen.availHeight-80)
    $(".carousel-inner .item a img").css("max-height",screen.availHeight-80)
-  
+
 
 $.extend($["fn"]["carousel"]["Constructor"].prototype, extension);
 

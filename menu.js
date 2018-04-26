@@ -8,14 +8,25 @@ $(document).ready(function() {
               /*$("#banner").hide();*/
               $("#navbar").css({"background-color":"transparent","opacity":"1","color":"#ffffff"});
               $("#opcion>a").css({"color":"#fff"});
+              $("#opcion>a").hover(function(){
+                $(this).css("color", "#2a45f6");
+              }, function() {
+                $(this).css("color","#fff")
+              }
+            );
             } else {
               /*$("#banner").show();*/
               $("#navbar").css({"background-color":"#fff","opacity":"0.8"});
               $("#opcion>a").css({"color":"#000"});
+              $("#opcion>a").hover(function(){
+                $(this).css("color", "#2a45f6");
+              }, function() {
+                $(this).css("color","#000")
+              }
+            );
             }
             lastScrollTop = currScrollTop;
 
           });
-          
+
         });
-      
