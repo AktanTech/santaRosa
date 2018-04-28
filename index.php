@@ -7,6 +7,7 @@
     <title>Santa Rosa</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="home.css">
+    <script src="gulpImage.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 
@@ -24,7 +25,7 @@
                 <a href="https://www.facebook.com/Santa-Rosa-F%C3%A1brica-140289986662439/" target="_blank" style="font-size:150%;color:#3B5998"><i class="fab fa-facebook-square"></i></a>
                 </div>
                 <a class="navbar-brand" href="">
-                    <img src="media/imagenes/LogoSantaRosa.png" alt="Santa Rosa Fabrica" width="130em" style="margin-top:3px">
+                    <img src="media/compressImages/LogoSantaRosa.png" alt="Santa Rosa Fabrica" width="130em" style="margin-top:3px">
                 </a>
             </div>
 
@@ -76,8 +77,8 @@
                         <div class="carousel-inner" role="listbox">
 
                             <div class="item active" data-duration="3000">
-                                <img src="./media/imagenes/Entrada.png" class="img-responsive" alt="Sin imagen">
-                               <!-- <div class="imagen container-fluid" style="background-image: url('./media/imagenes/4_Negro.png') ;"></div>-->
+                                <img src="./media/compressImages/Entrada.png" class="img-responsive" alt="Sin imagen">
+                               <!-- <div class="imagen container-fluid" style="background-image: url('./media/compressImages/4_Negro.png') ;"></div>-->
                                 <div class="carousel-caption">
                                     <div class="col-xs-12">
                                       <p>Vivimos el proceso</p>
@@ -86,40 +87,40 @@
                             </div>
 
                             <div class="item" data-duration="3000">
-                                <img src="./media/imagenes/Desde1980.png" alt="Sin Imagen">
-                               <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
+                                <img src="./media/compressImages/Desde1980.png" alt="Sin Imagen">
+                               <!-- <div class="imagen" style="background-image: url('./media/compressImages/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
                                 <div class="carousel-caption">
                                     <p>40 años de experiencia</p>
                                 </div>
                             </div>
 
                              <div class="item" data-duration="3000">
-                                <img src="./media/imagenes/webpage.png" alt="Sin Imagen">
-                               <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
+                                <img src="./media/compressImages/webpage.png" alt="Sin Imagen">
+                               <!-- <div class="imagen" style="background-image: url('./media/compressImages/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
                                 <div class="carousel-caption">
                                     <p>Calidad y servicio</p>
                                 </div>
                             </div>
 
                              <div class="item" data-duration="3000">
-                                <img src="./media/imagenes/Foto4.png" alt="Sin Imagen">
-                               <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
+                                <img src="./media/compressImages/Foto4.png" alt="Sin Imagen">
+                               <!-- <div class="imagen" style="background-image: url('./media/compressImages/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
                                 <div class="carousel-caption">
                                     <p> Procesos innovadores en construcción</p>
                                 </div>
                             </div>
 
                              <div class="item" data-duration="3000">
-                                <img src="./media/imagenes/Foto5.png" alt="Sin Imagen">
-                               <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
+                                <img src="./media/compressImages/Foto5.png" alt="Sin Imagen">
+                               <!-- <div class="imagen" style="background-image: url('./media/compressImages/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
                                 <div class="carousel-caption">
                                     <p>Somos fabricantes</p>
                                 </div>
                             </div>
 
                              <div class="item" data-duration="3000">
-                                <img src="./media/imagenes/Foto6.png" alt="Sin Imagen">
-                               <!-- <div class="imagen" style="background-image: url('./media/imagenes/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
+                                <img src="./media/compressImages/Foto6.png" alt="Sin Imagen">
+                               <!-- <div class="imagen" style="background-image: url('./media/compressImages/Logo-Santa-Rosa-Azul 640x494.png');"></div>-->
                                 <div class="carousel-caption">
                                     <p>Procesos innovadores</p>
                                 </div>
@@ -161,7 +162,7 @@
                     </div>
                     <div class="col-sm-3">
                         <div class="container-fluid" id="imagenTab">
-                            <img src="./media/imagenes/32.png" alt="Sin imagen" class="">
+                            <img src="./media/compressImages/32.png" alt="Sin imagen" class="">
                         </div>
                     </div>
                 </div>
@@ -174,7 +175,7 @@
                     </div>
                     <div class="col-sm-3">
                         <div class="container-fluid" id="imagenTab">
-                            <img src="./media/imagenes/32.png" alt="Sin imagen" class="">
+                            <img src="./media/compressImages/32.png" alt="Sin imagen" class="">
                         </div>
                     </div>
                 </div>
@@ -183,7 +184,7 @@
                     <h2>Visión</h2>
                     <div class="col-sm-3">
                         <div class="container-fluid" id="imagenTab">
-                            <img src="./media/imagenes/32.png" alt="Sin imagen" class="img-responsive">
+                            <img src="./media/compressImages/32.png" alt="Sin imagen" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-sm-9">
@@ -202,7 +203,7 @@
 
             <div class="col-sm-6 col-md-6">
                 <div class="thumbnail">
-                <img src="./media/imagenes/Web1_SRF13.png" alt="Sin información">
+                <img src="./media/compressImages/Web1_SRF13.png" alt="Sin información">
                 <div class="caption">
                     <h3 id="producto1">BOVEDILLA DE POLIESTIRENO</h3>
                     <p>La Bovedilla es un componente aligerante utilizado en la construcción como molde...</p>
@@ -213,7 +214,7 @@
             </div>
             <div class="col-sm-6 col-md-6">
                 <div class="thumbnail">
-                <img src="./media/imagenes/Web1_SRF6.png" alt="Sin información">
+                <img src="./media/compressImages/Web1_SRF6.png" alt="Sin información">
                 <div class="caption">
                     <h3 id="producto2">CASETÓN CON POLIESTIRENO</h3>
                     <p>Los Casetones son bloques de poliestireno expandido...</p>
@@ -224,7 +225,7 @@
             </div>
             <div class="col-sm-6 col-md-6">
                 <div class="thumbnail">
-                <img src="./media/imagenes/Web1_SRF16.png" alt="Sin información">
+                <img src="./media/compressImages/Web1_SRF16.png" alt="Sin información">
                 <div class="caption">
                     <h3 id="producto3">VIGUETA PRETENSADA</h3>
                     <p>Las viguetas son elementos de concreto hidráulico...</p>
@@ -235,7 +236,7 @@
             </div>
             <div class="col-sm-6 col-md-6">
                 <div class="thumbnail">
-                <img src="./media/imagenes/Web1_SRF8.png" alt="Sin información">
+                <img src="./media/compressImages/Web1_SRF8.png" alt="Sin información">
                 <div class="caption">
                     <h3 id="producto4">POLIESTIERNO EXPANDIDO EPS</h3>
                     <p>Material plástico celular rígido fabricado a partir... </p>
