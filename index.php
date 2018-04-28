@@ -203,44 +203,40 @@
 
             <div class="col-sm-6 col-md-6">
                 <div class="thumbnail">
-                <img src="./media/compressImages/Web1_SRF13.png" alt="Sin información">
+                <img src="./media/compressImages/Web1_SRF13.png" alt="Sin información" onclick="showProducto('1')" data-toggle="modal" data-target="#exampleModal">
                 <div class="caption">
                     <h3 id="producto1">BOVEDILLA DE POLIESTIRENO</h3>
                     <p>La Bovedilla es un componente aligerante utilizado en la construcción como molde...</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('1')">   Saber más </button>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion" onclick="asunto(1)" id="cotizar1">Cotizar</button>
                 </div>
                 </div>
             </div>
             <div class="col-sm-6 col-md-6">
                 <div class="thumbnail">
-                <img src="./media/compressImages/Web1_SRF6.png" alt="Sin información">
+                <img src="./media/compressImages/Web1_SRF6.png" alt="Sin información"data-toggle="modal" data-target="#exampleModal" onclick="showProducto('2')">
                 <div class="caption">
                     <h3 id="producto2">CASETÓN CON POLIESTIRENO</h3>
                     <p>Los Casetones son bloques de poliestireno expandido...</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('2')">   Saber más </button>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion" id="cotizar2" onclick="asunto(2)">Cotizar</button>
                 </div>
                 </div>
             </div>
             <div class="col-sm-6 col-md-6">
                 <div class="thumbnail">
-                <img src="./media/compressImages/Web1_SRF16.png" alt="Sin información">
+                <img src="./media/compressImages/Web1_SRF16.png" alt="Sin información" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('3')"> 
                 <div class="caption">
                     <h3 id="producto3">VIGUETA PRETENSADA</h3>
                     <p>Las viguetas son elementos de concreto hidráulico...</p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('3')">   Saber más </button>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion" id="cotizar3" onclick="asunto(3)">Cotizar</button>
                 </div>
                 </div>
             </div>
             <div class="col-sm-6 col-md-6">
                 <div class="thumbnail">
-                <img src="./media/compressImages/Web1_SRF8.png" alt="Sin información">
+                <img src="./media/compressImages/Web1_SRF8.png" alt="Sin información" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('4')">
                 <div class="caption">
                     <h3 id="producto4">POLIESTIERNO EXPANDIDO EPS</h3>
                     <p>Material plástico celular rígido fabricado a partir... </p>
-                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModal" onclick="showProducto('4')">   Saber más </button>
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#cotizacion" id="cotizar4" onclick="asunto(4)">Cotizar</button>
                 </div>
                 </div>
