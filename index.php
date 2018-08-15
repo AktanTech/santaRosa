@@ -7,6 +7,7 @@
     <title>Santa Rosa</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="home.css">
+    <link rel="icon" type="image/png" href="./media/compressImages/Logo-Santa-Rosa-Azul.png" />
     <script src="gulpImage.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
