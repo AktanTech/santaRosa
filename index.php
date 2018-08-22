@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Santa Rosa</title>
+    <meta name="description" content="Materiales de excelente calidad para la construcción de empresas y hogares" />
+    <meta name="description" content="Excellent quality materials for the construction of businesses and homes" />
+    <title >Santa Rosa</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="home.css">
     <link rel="icon" type="image/png" href="./media/compressImages/Logo-Santa-Rosa-Azul.png" />
