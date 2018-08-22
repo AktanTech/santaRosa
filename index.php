@@ -78,7 +78,7 @@
                         <div class="carousel-inner" role="listbox">
 
                             <div class="item active" data-duration="3000">
-                                <img src="./media/compressImages/Entrada.png" class="img-responsive" alt="Sin imagen">
+                                <img src="./media/compressImages/Fachada2.png" class="img-responsive" alt="Sin imagen">
                                <!-- <div class="imagen container-fluid" style="background-image: url('./media/compressImages/4_Negro.png') ;"></div>-->
                                 <div class="carousel-caption">
                                     <div class="col-xs-12">
