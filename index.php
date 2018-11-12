@@ -337,8 +337,7 @@
             </div>
             <div class="col-sm-8">
                 <div class="container-fluid" id="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5329.928832312058!2d-89.60600032028215!3d20.91692500518287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe6b0ba5af8913846!2sVigas+Preforzadas+Santa+Rosa!5e0!3m2!1ses-419!2smx!4v1524262299054"
-                     width="100%" height="500" frameborder="0" style="border:0" allowfullscreen>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14907.239141489963!2d-89.6103879454428!3d20.919971115684174!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5671d0ccaa022f%3A0xbeedb7ca7b56c09c!2sSanta+Rosa+Fabrica!5e0!3m2!1ses-419!2smx!4v1542067069323"  width="100%" height="500" frameborder="0" style="border:0" allowfullscreen>
                     </iframe>
                 </div>
             </div>
@@ -388,19 +387,6 @@
     this.cycle(true, true)
   }
 }
-
-    //Cambio cuando existe una transicion en el carrusel
-    /**
-    $("#carousel-example-generic").on('slide.bs.carousel', function () {
-        var posicion = ["center","center","right","left"];
-        var aleatorio = Math.ceil(Math.random()*(posicion.length))
-        if(posicion[aleatorio] != undefined){
-            $("#Carrusel p").css({"text-align": posicion[aleatorio]})
-        }
-
-
-    });
-    */
    $(".carousel-inner  .item  img").css("max-height",screen.availHeight-80)
    $(".carousel-inner .item a img").css("max-height",screen.availHeight-80)
 
