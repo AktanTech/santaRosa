@@ -11,24 +11,23 @@ if (isset($_POST['subject'])) {$subject = $_POST['subject'];}
 if (isset($_POST['phone'])) {$company = $_POST['phone'];}
 if (isset($_POST['textarea'])) {$message = $_POST['textarea'];}
 
-// Construct subject of the email
-$subject = 'Cotizacion de ' . $name;
-
 // Construct email body
 $body_message = 'Name: ' . $name . "\r\n" . 'Email: ' . $from . "\r\n" . 'Phone: ' . $company . "\r\n" . 'Message: ' . $message . "\r\n";
 
 // Construct headers of the message
-$headers = 'From: ' . $from . "\r\n";
+$headers = 'MIME-Version: 1.0' . "\r\n";
+$headers .= 'Content-type: text/plain charset=iso-8859-1' . "\r\n";
+$headers .= 'From: ' . $from . "\r\n";
 
 $mail_sent = mail($to, $subject, $body_message, $headers);
 
 if ($mail_sent == true) {
     http_response_code(200);
     echo "Thank You! Your message has been sent.";
-    //header('Location: ../index.html');
+    header('Location: ../index.html');
 } else {
     http_response_code(500);
     echo "Oops! Something went wrong and we couldn't send your message.";
-    //header('Location: ../index.html');
+    header('Location: ../index.html');
 }
 ?>
