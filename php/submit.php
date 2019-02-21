@@ -10,7 +10,9 @@ if (isset($_POST['email'])) {$from = $_POST['email'];}
 if (isset($_POST['subject'])) {$subject = $_POST['subject'];}
 if (isset($_POST['phone'])) {$company = $_POST['phone'];}
 if (isset($_POST['textarea'])) {$message = $_POST['textarea'];}
+if (isset($_POST['hade'])) {$hade = trim(stripcslashes($_POST['hade']));}
 
+if($hade == ''){
 // Construct email body
 $body_message = 'Name: ' . $name . "\r\n" . 'Email: ' . $from . "\r\n" . 'Phone: ' . $company . "\r\n" . 'Message: ' . $message . "\r\n";
 
@@ -29,5 +31,9 @@ if ($mail_sent == true) {
     http_response_code(500);
     echo "Oops! Something went wrong and we couldn't send your message.";
     header('Location: ../index.html');
+}
+}
+else{
+echo "Oops! Something went wrong and we couldn't send your Spam.";
 }
 ?>
